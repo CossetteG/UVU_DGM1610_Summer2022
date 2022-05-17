@@ -25,3 +25,7 @@ what happens if you make a mistake?
 You can undo a commit or a staging (or maybe even a push idk) by using the fancy little undo button. 
 You can unstage certain lines if you just want to get rid of them
 or you can go into the text and just edit it as if it was never committed
+
+Now I'm going to simulate a pull function
+These lines were written in Git Hub
+To get here, I went to GitHub- this repo- Code- this file- and Edit with the little pencil icon
