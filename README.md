@@ -33,3 +33,7 @@ To get here, I went to GitHub- this repo- Code- this file- and Edit with the lit
 Then in Git Kraken, I use Fetch (under Pull) to check for new files from Git Hub, and Then Pull to add them to my repo
 
 Now we're going to branch?
+
+This change was made in the secondary branch. this way we can make changes and pull requests without corrupting the original file
+To merge this branch to the main branch, you can just drag and drop them together, and then push it
+
