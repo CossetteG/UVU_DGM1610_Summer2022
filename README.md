@@ -19,3 +19,9 @@ when you're done editing, stage and commit and push
 
 Always save your file before exiting out of it, but Git will prompt you
 To edit a Diff, you'll click to view it, and then hit Edit File to make another change
+
+what happens if you make a mistake?
+
+You can undo a commit or a staging (or maybe even a push idk) by using the fancy little undo button. 
+You can unstage certain lines if you just want to get rid of them
+or you can go into the text and just edit it as if it was never committed
