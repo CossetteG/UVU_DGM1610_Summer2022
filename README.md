@@ -29,3 +29,7 @@ or you can go into the text and just edit it as if it was never committed
 Now I'm going to simulate a pull function
 These lines were written in Git Hub
 To get here, I went to GitHub- this repo- Code- this file- and Edit with the little pencil icon
+
+Then in Git Kraken, I use Fetch (under Pull) to check for new files from Git Hub, and Then Pull to add them to my repo
+
+Now we're going to branch?
