@@ -38,3 +38,5 @@ This change was made in the secondary branch. this way we can make changes and p
 To merge this branch to the main branch, you can just drag and drop them together, and then push it
 
 SIKE it actually merged into the Main branch so we're good lol
+
+I tried to change the name and now I have two files so now I'm going to delete notes and just make a new notes file
