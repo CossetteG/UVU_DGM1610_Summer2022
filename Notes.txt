@@ -41,3 +41,52 @@ SIKE it actually merged into the Main branch so we're good lol
 
 I tried to change the name and now I have two files so now I'm going to delete notes and just make a new notes file
 There it is
+
+Learning Git: without GitHub or Git Kraken, using Git Terminal
+    Download Git from git-scm.com 
+    update it by opening the terminal and writing https://gitgithub.com/git/git 
+    "git init" will create a new repo 
+    "git status" will show you what files you have in your repository
+    "git add <file name>" 
+    "git commit -m "<commit message>" " to commit the currect version of your file
+    "git branch <branch name>" will create a new branch in git
+    "git branch" will show you all the branches that git currently has 
+    "git checkout <branch name>" wil make it so you're working in that branch's version of the files
+    "git checkout -b <branch name>" will create a branch and switch to it
+    "git add ." will add everything you have changed to the branch
+    "git commit -n "commit message" "to make a commit
+    "git merge <branch name>" will merge the branch you mentioned to the branch you're currently in 
+    "git branch <branch name> -d" will delete the branch
+    "git branch <branch name> - D" will force delete the branch
+    "git log" shows us all our commits
+        copy whichever git ID you need to use
+    "git revert <commit ID>" will undo your work until that specific version of it
+
+    to make something git won't see 
+        create a new document called .gitignore
+        within .gitignore, put /<folder name> to tell git to ignore that folder and
+        write the file name to tell git to ignore that file
+
+    If you want git to ignore a file it already has commits for, you'll need to delete cache first
+    "git rm --cached <file name>"
+    then add the file to .gitignore
+
+GitHub tutorials
+    creating repositories
+    "git add remote origin <URL of Git Repo>.git" will clone and connect the online and local repositories
+    "git push origin <branch name>"
+        it will prompt you for login info
+    to make a new commit:
+        stage with git add .
+        commit with git commit -m "commit message"
+        push with git push -u origin master
+        username and password
+
+    ReadMe files: welcome and rules and organization for your repository
+    Git clone (pulling)
+    open the repo you want
+    copy the repo link
+    "git clone <github URL>"
+
+that guy's voice was annoying smh
+
