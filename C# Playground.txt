@@ -1,0 +1,20 @@
+//001 Conventions and Sytax
+
+public class ClassExample
+{
+
+}
+
+public class ClassWithVariables
+{
+    public int number = 2;
+    public string userName = "Bob";
+}
+
+public class ClassWithFuctions
+{
+    public void RunVuntion()
+    {
+        Console.WriteLine("Running Function");
+    }
+}
