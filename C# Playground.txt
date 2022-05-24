@@ -18,3 +18,17 @@ public class ClassWithFuctions
         Console.WriteLine("Running Function");
     }
 }
+
+
+//Hello World Code
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("Hello World");
+    }
+}
+//tested- it works
+
