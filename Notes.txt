@@ -90,3 +90,8 @@ GitHub tutorials
 
 that guy's voice was annoying smh
 
+Links!!
+https://github.com/anthonyromrell/CSharpEssentials (.)
+https://dotnetfiddle.net/ 
+w3schools.com/cs/cs_intro.php
+
