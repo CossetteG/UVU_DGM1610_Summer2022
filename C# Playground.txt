@@ -30,5 +30,31 @@ public class HelloWorld
         Console.WriteLine("Hello World");
     }
 }
-//tested- it works
+//tested- it works (PASS)
+
+//Correct the Errors File
+using System;
+
+public class CorrectTheErrors
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("HW");
+    }
+}
+//added a closing " 
+//added a closing }
+//fixed the spelling of System
+//PASS
+
+
+
+
+
+
+
+
+
+
+
 
