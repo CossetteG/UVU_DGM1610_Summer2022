@@ -95,3 +95,18 @@ https://github.com/anthonyromrell/CSharpEssentials (.)
 https://dotnetfiddle.net/ 
 w3schools.com/cs/cs_intro.php
 
+Class:
+    public class ClassExample
+        C Sharp is object oriented
+        public - keyword, meaning accessible
+        class declares a class
+        ClassExample is just the name of the class
+        denote a class by putting curly brackets underneath:
+    public class ClassExample
+    {
+        public int number;
+    }
+        now we fill the object with variables
+        int is integer, a number value
+        number is the name of the variables
+        always end your lines with a ;
