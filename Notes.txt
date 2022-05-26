@@ -110,3 +110,5 @@ Class:
         int is integer, a number value
         number is the name of the variables
         always end your lines with a ;
+
+void means no return. to be used in functions. 
