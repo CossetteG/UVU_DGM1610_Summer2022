@@ -47,9 +47,38 @@ public class CorrectTheErrors
 //fixed the spelling of System
 //PASS
 
+using System;
 
+public class Marvel
+{
+    public Hero eraserHead;
+    public Hero presentMic;
 
+    public void Main ()
+    {
+        eraserHead = new Hero;
+        presentMic = new Hero;
 
+        eraserHead.hp = 2;
+        eraserHead.power = 18;
+
+        presentMic.hp = 7;
+        presentMic.power = 11;
+
+        Console.WriteLine (eraserHead.hp);
+        Console.WriteLine (eraserHead.power);
+
+        Console.WriteLine (presentMic.hp);
+        Console.WriteLine (presentMic.power);
+    }
+}
+
+public class Hero
+{
+    public int hp;
+    public int power;
+}
+//copied from Anthony's Hero Classes
 
 
 
