@@ -143,3 +143,68 @@ public class Character
 
 You can put one class in another and it registers as an object
 example of a function
+
+public class Weapons
+{
+    public int ammoCount = 10;
+    public string weaponName = "Mini Gun"
+    public float firePower = 11.5f; 
+}
+
+string is a abc variable
+a float is a numeric variable with a decimal 
+float variables always come in units of f
+
+using System;
+
+public class Program
+{
+    public Weapon miniGun;
+
+    public void Main()
+    {
+        miniGun = new Weapon();
+        Console.WriteLine(miniGun.weaponName + "has an ammo count of" + miniGun.ammoCount);
+    }
+}
+
+Weapon is the object
+the first line only declares the object
+within the function is the connector from miniGun to the Weapon body
++ can string together sentences, just an and
+
+public class Program
+{
+    public Weapon miniGun;
+    public PowerUp WeaponPowerUp;
+
+    public void Main()
+    {
+        miniGun = new Weapon();
+        miniGun.ammoCount++;
+
+        WeaponPowerUp = new PowerUp;
+        miniGun.firePower += WeaponPowerUp.powerLevel;*
+
+        Console.WriteLine(miniGun.weaponName + "has an ammo count of" + miniGun.ammoCount);
+        Console.WriteLine("Firepower is now" + miniGun.firePower);
+    }
+}
+
+++ operaters will add 1 to your numeric variable
+-- subtracts one
+miniGun.ammoCount = 30 will change the value to 30
++= will add however many more
+-= will subtract however many more
+The long way to do this is:
+miniGun.ammoCount = miniGun.ammoCount + 40; 
+
+public class PowerUp
+{
+    public float powerLevel = 2.5f;
+}
+
+(added powerup stuff)
+you can pull info from other classes easy
+*name of the object . name of the variable in its class, add to it: name of the object . name of the variable within its class
+
