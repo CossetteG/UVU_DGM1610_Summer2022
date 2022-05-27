@@ -112,3 +112,34 @@ Class:
         always end your lines with a ;
 
 void means no return. to be used in functions. 
+
+Names are one word only
+Class names start with capital letters
+Variable names start with lowercase letters
+both use CamelCasing
+functions go within classes alongside variables
+to declare that it is a function, it needs () after it, then you put curly brackets underneath to tell the function what to do
+a function declaration is the top line (), a funtcion call is the body of the function {}
+
+public class Health
+{
+    public int healthNum;
+    public int strengthNum;
+}
+
+public means it can be veiwed from anywhere
+int is a number variables
+"healthNum" and "strengthNum" are variable names
+
+public class Character
+{
+    public Health playerHealth;
+
+    public void RunExample()
+    {
+        Console.WriteLine("Hello World");
+    }
+}
+
+You can put one class in another and it registers as an object
+example of a function
