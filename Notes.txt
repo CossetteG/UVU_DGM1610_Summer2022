@@ -208,3 +208,40 @@ public class PowerUp
 you can pull info from other classes easy
 *name of the object . name of the variable in its class, add to it: name of the object . name of the variable within its class
 
+Types of variables
+    int - whole numbers and negative whole numbers - 4 bytes
+        int myNum = 5;
+    long - whole numbers but they're bigger/ negative numbers but they're smaller - 8 bytes
+        long myLongNum = 10L;
+    float - decimal numbers - 4 bytes
+        float myFloatyBoi = 5.5F;
+    double - decimal numbers, but with more decimal places - 8 bytes  
+        double myBadonkerSize = 12.21D;
+    floats and doubles may also be scientific numbers like 12e4 (120000)
+    char - single character with single quotes - 2 bytes
+        char myLetter = 'D';
+    string - text with normal quotes- 2 bytes per characters
+        string myWords = "ahh no betrayal";
+    bool - a value that is either true or false - 1 bit
+        bool myBool = true;
+
+Syntax:
+type(of variable) variableName = value; -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    string name = "Black*Star";
+    int myNum = 1;
+Console.WriteLine(whatever you're writing lol + whatever else you wanna say haha);
+    Console.WriteLine(myNum)
+    Console.WriteLine("A human called me a possom. I am not a possom")
+variableName = value; (after you've declared it once)
+    myNum = 8;
+    (variables will = the latest declared value)
+
+
+
+
+
+
+
+
+
+
