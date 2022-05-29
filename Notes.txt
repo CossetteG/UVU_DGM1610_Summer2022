@@ -273,7 +273,7 @@ Assignment Operators
     |= also witchcraft. will make your number some value up to the += value. OR
         these have to do with the number in binary as well as AND and OR logical statements.
         they are inverses of eachother
-    ^= Sorcery, but numbers come in triplets (in 9, 16, 25, any two will return the other) triangle bitch
+    ^= Sorcery, but numbers come in triplets (in 9, 16, 25, any two will return the other) pythagoras bitch
     >>= Shrink Ray. responds well to exponetial relationships
     <<= Growth Ray. greater than addition but less than exponetial
 Comparison Operators (will return true or false)
