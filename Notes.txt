@@ -236,6 +236,66 @@ variableName = value; (after you've declared it once)
     myNum = 8;
     (variables will = the latest declared value)
 
+Operators
+do stuff with the variables (subject and predicate deal)
+type variableName (operator) value or other variable [(operater) value or other variable]
+    int value0 = 10;
+    int value1 = 100 + 50;
+    int value2 = value1 + 30;
+    int value3 = value1 + value2;
+    int value0 ++;
+    int value1 += 50;
+
+    int value4 = 4;
+    int value5 = 2 + 2;
+    Console.WriteLine(value4 == value5);
+    //returns true because they are equal
+
+    (value4 == value5 && value4 != 0)
+    //returns true, because value4 is equal to value5 AND value4 is not equal to 0
+
+Arithmetic Operators
+    + Adds together two values;
+    - subtracts one value from another;
+    * multiplies two values;
+    / divides one value from another;
+    % (Modulus) returns the division remainder;
+    ++ (Increment) Increases the Value by one;
+    -- (Decrement) Decreases the Value by one;
+Assignment Operators 
+    = assigns a value;
+    += adds a value to a variable;
+    -= subtracts '';
+    *= multiplies '';
+    /= divides '';
+    %= modules '';
+    &= witchcraft. will make your numbers smaller, likley go to 0. values are interchangeable AND
+    |= also witchcraft. will make your number some value up to the += value. OR
+        these have to do with the number in binary as well as AND and OR logical statements.
+        they are inverses of eachother
+    ^= Sorcery, but numbers come in triplets (in 9, 16, 25, any two will return the other) triangle bitch
+    >>= Shrink Ray. responds well to exponetial relationships
+    <<= Growth Ray. greater than addition but less than exponetial
+Comparison Operators (will return true or false)
+    == is equal to;
+    != is not equal to;
+    > greater than;
+    < less than;
+    >= greater than or equal to;
+    >= less than or equal to;
+Logical Operators (returns true or false)
+    && AND / true if both statements are true;
+    || OR / true if either statement is true;
+    ! NOT / uno reverse card
+
+
+
+
+
+
+
+
+
 
 
 
