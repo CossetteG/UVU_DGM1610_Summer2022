@@ -288,7 +288,9 @@ Logical Operators (returns true or false)
     || OR / true if either statement is true;
     ! NOT / uno reverse card
 
-
+Commas can be used anywhere where one variable is expected to put multiple variables in
+    int x = 4, y = 5, z = 3;
+    Console.WriteLine(x, y, z);
 
 
 
