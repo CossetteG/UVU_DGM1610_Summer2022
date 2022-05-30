@@ -1,125 +1,85 @@
-//001 Conventions and Sytax
+// 01 Experiments and Practices
 
-public class ClassExample
+using System
+
 {
+    string rant "I wish I had known that I was supposed to show my work when I was going through the readings";
+    string promise "I did go through and practice with all of the things that didn't immediately make sense.";
 
+    int number = 6;
+    number ^= 6; 
+
+    Console.Writeline(number);
 }
-
-public class ClassWithVariables
-{
-    public int number = 2;
-    public string userName = "Bob";
-}
-
-public class ClassWithFuctions
-{
-    public void RunVuntion()
-    {
-        Console.WriteLine("Running Function");
-    }
-}
-
-
-//Hello World Code
-using System;
-
-public class HelloWorld
-{
-    public static void Main(string[] args)
-    {
-        Console.WriteLine("Hello World");
-    }
-}
-//tested- it works (PASS)
-
-//Correct the Errors File
-using System;
-
-public class CorrectTheErrors
-{
-    public static void Main(string[] args)
-    {
-        Console.WriteLine("HW");
-    }
-}
-//added a closing " 
-//added a closing }
-//fixed the spelling of System
-//PASS
+//Did not work
 
 using System;
-
-public class Marvel
 {
-    public Hero eraserHead;
-    public Hero presentMic;
+    public string rant "I wish I had known that I was supposed to show my work when I was going through the readings";
+    public string promise "I did go through and practice with all of the things that didn't immediately make sense";
 
-    public void Main ()
-    {
-        eraserHead = new Hero();
-        presentMic = new Hero();
+    int number = 6;
+    number ^= 6; 
 
-        eraserHead.hp = 2;
-        eraserHead.power = 18;
-
-        presentMic.hp = 7;
-        presentMic.power = 11;
-
-        Console.WriteLine (eraserHead.hp);
-        Console.WriteLine (eraserHead.power);
-
-        Console.WriteLine (presentMic.hp);
-        Console.WriteLine (presentMic.power);
-    }
+    Console.WriteLine(number);
+	Console.WriteLine(rant);
+	Console.WriteLine(promise);
 }
+//Did not work
 
-public class Hero
+using System
 {
-    public int hp;
-    public int power;
+    int number = 6;
+    number ^= 6; 
+
+    Console.WriteLine(number);
 }
-//copied from Anthony's Hero Classes
+//Did not work
+
+public class Program
+{
+    int testNum = 6;
+    //testNum ^= 6; 
+
+    public void Main()
+	{
+		Console.WriteLine(testNum);
+	}
+}
+//Did not work
 
 using System;
 
-public class Marvel
+public class Program
 {
-    public Hero eraserHead;
-    public Hero presentMic;
+    int testNum = 6;
+    //testNum ^= 6; 
 
-    public void Main ()
-    {
-        eraserHead = new Hero();
-        presentMic = new Hero();
-
-        eraserHead.hp = 2;
-        eraserHead.power = 18;
-
-        presentMic.hp = 7;
-        presentMic.power = 11;
-
-        Console.WriteLine ("Eraserhead's Stats: hp, power");
-		Console.WriteLine (eraserHead.hp);
-        Console.WriteLine (eraserHead.power);
-		
-		Console.WriteLine ("Present Mic's Stats: hp, power");
-        Console.WriteLine (presentMic.hp);
-        Console.WriteLine (presentMic.power);
-    }
+    public void Main()
+	{
+		Console.WriteLine(testNum);
+	}
 }
+//WORKED
 
-public class Hero
+using System;
+
+public class Program
 {
-    public int hp;
-    public int power;
+    int testNum = 6;
+
+    public void Main()
+	{
+		testNum ^= 6; 
+		Console.WriteLine(testNum);
+	}
 }
-//copied from Anthony's Hero Classes
-//added label writlines
-
-
-
-
-
+//returns 0
+//This one worked too
+//In order for you to do anything you need a System, Class, and Function
+//fuckin hell
+//anyways I was wondering if 6 ^= 6 would return 6
+//it doesn't
 
 
 
