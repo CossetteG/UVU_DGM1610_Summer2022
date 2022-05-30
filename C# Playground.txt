@@ -95,3 +95,40 @@ public class Program
 //anyways I was wondering if 6 ^= 6 would return 6
 //it doesn't
 
+//CHALLENGE
+
+using System;
+public class ClassExample
+{
+    
+}
+
+public class ClassWithVariables
+{
+    public int number = 2;
+    public string userName = "Pearl";
+    public int value = 4;
+
+}
+
+public class ClassWithFunctions
+{
+    public void Main()
+    {
+        Console.WriteLine("Running Function");
+        Console.WriteLine(value);
+    }
+}   
+//add more variables and functions 
+
+using Sytem;
+
+public class CorrectTheErrors
+{
+    public static void Main(string[] args)
+    {
+        Console.WriteLine("HW");
+    }
+}
+//Correct the Errors 
+//I think I already did this 
