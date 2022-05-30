@@ -1,3 +1,17 @@
+//Base Code that Works-DONT DELETE
+using System;
+
+public class Program
+{
+    string name = "White Diamond";
+
+    public void Main()
+	{
+		Console.WriteLine(name);
+	}
+}
+
+
 // 01 Experiments and Practices
 
 using System
@@ -80,6 +94,4 @@ public class Program
 //fuckin hell
 //anyways I was wondering if 6 ^= 6 would return 6
 //it doesn't
-
-
 
