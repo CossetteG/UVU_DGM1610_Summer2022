@@ -132,3 +132,189 @@ public class CorrectTheErrors
 }
 //Correct the Errors 
 //I think I already did this 
+
+//My Class
+using System;
+
+public class Closet
+{
+    public int shirts = 20;
+    public int pants = 7;
+    public float socks = 14.5f;
+    public int dresses = 15;
+	public long hangars = 50000000000L;
+
+    public string comment= "Time to do laundry";
+
+    public void Main()
+    {
+        Console.WriteLine(comment);
+    }
+
+}
+
+public class Laundry
+{
+    public int clothesInTheWasher = 0;
+    public int clothesInTheDryer = 0;
+	
+    public void LaundrySwitch1()
+    {
+        clothesInTheWasher += (shirts + pants);
+        shirts -= shirts;
+        pants -= pants;
+        Console.WriteLine("Shirts and Pants are in the wash.");
+        Console.WriteLine("There are" + clothesInTheWasher + "items in the washer"); 
+        Console.WriteLine("There are" + clothesInTheDryer + "items in the dryer");
+        
+    }
+}
+//version 1. did not work
+
+using System;
+
+
+public class Laundry
+{
+    public int shirts = 20;
+    public int pants = 7;
+    public float socks = 14.5f;
+    public int dresses = 15;
+    public long hangars = 50000000000l;
+
+    public string comment= "Time to do laundry";
+
+    public int clothesInTheWasher = 0;
+    public int clothesInTheDryer = 0;
+    public void Main()
+    {
+        Console.WriteLine(comment);
+
+        clothesInTheWasher += (shirts + pants);
+        shirts -= shirts;
+        pants -= pants;
+        Console.WriteLine("Shirts and Pants are in the wash.");
+		
+        Console.WriteLine("There are " + clothesInTheWasher+" items in the washer"); 
+        Console.WriteLine("There are "+ clothesInTheDryer+ " items in the dryer");
+        
+    }
+}
+//version 2. this one works. 
+//when I was trying to multiple functions, it wouldn't run anything that wasn't in the function Main
+//but when I get rid of "using System;", Console.WriteLine doesn't work
+
+using System;
+
+
+public class Laundry
+{
+    public int shirts = 20;
+    public int pants = 7;
+    public int dresses = 14;
+    public long hangars = 50000000000L;
+
+    public string comment= "Time to do laundry";
+
+    public int clothesInTheWasher = 0;
+    public int clothesInTheDryer = 0;
+
+    public void Main()
+    {
+        Console.WriteLine(comment);
+
+        //Laundry Switch 1
+        clothesInTheWasher += (shirts + pants);
+        shirts -= shirts;
+        pants -= pants;
+        Console.WriteLine("Shirts and Pants are in the wash.");
+		
+        Console.WriteLine("   There are " + clothesInTheWasher+" items in the washer"); 
+        Console.WriteLine("   There are "+ clothesInTheDryer+ " items in the dryer");
+        
+        //Laundry Switch 2
+        clothesInTheDryer += clothesInTheWasher;
+        clothesInTheWasher -= (clothesInTheWasher);
+        clothesInTheWasher += (dresses);
+        dresses -= dresses;
+        Console.WriteLine("Shirts and Pants are drying, Socks are washing");
+
+        Console.WriteLine("   There are " + clothesInTheWasher+" items in the washer"); 
+        Console.WriteLine("   There are "+ clothesInTheDryer+ " items in the dryer");
+    }
+}
+//version 3. works
+//as I suspected, you cannot convert a float into and int. so I got rid of the socks float
+//for a sec there I had "clothesInTheWasher" in the first two lines of Laundry Switch 2 as "shirts + pants" and it messed up my calculations
+
+using System;
+
+
+public class Laundry
+{
+    public int shirts = 20;
+    public int pants = 7;
+    public int dresses = 14;
+    public long hangars = 50000000000L;
+
+    public string comment= "Time to do laundry";
+
+    public int clothesInTheWasher = 0;
+    public int clothesInTheDryer = 0;
+
+    public void Main()
+    {
+        Console.WriteLine(comment);
+
+        //Laundry Switch 1
+        clothesInTheWasher += shirts;
+        shirts -= shirts;
+        Console.WriteLine("Shirts are in the wash.");
+		
+        Console.WriteLine("   There are " + clothesInTheWasher+" items in the washer"); 
+        Console.WriteLine("   There are "+ clothesInTheDryer+ " items in the dryer");
+        
+        //Laundry Switch 2
+        clothesInTheDryer += clothesInTheWasher;
+        clothesInTheWasher -= (clothesInTheWasher);
+        clothesInTheWasher += (dresses);
+        dresses -= dresses;
+        Console.WriteLine("Shirts are drying, dresses are washing");
+
+        Console.WriteLine("   There are " + clothesInTheWasher+" items in the washer"); 
+        Console.WriteLine("   There are "+ clothesInTheDryer+ " items in the dryer");
+
+        //Laundry Switch 3
+        shirts += clothesInTheDryer;
+        clothesInTheDryer -= clothesInTheDryer;
+        clothesInTheDryer += clothesInTheWasher;
+        clothesInTheWasher -= (clothesInTheWasher);
+        clothesInTheWasher += pants;
+        Console.WriteLine("Shirts are clean, dresses are drying, pants are washing");
+
+        Console.WriteLine("   There are " + clothesInTheWasher+" items in the washer"); 
+        Console.WriteLine("   There are "+ clothesInTheDryer+ " items in the dryer");
+
+        //Laundry Switch 4
+        dresses += clothesInTheDryer;
+        clothesInTheDryer -= clothesInTheDryer;
+        clothesInTheDryer += clothesInTheWasher;
+        clothesInTheWasher -= (clothesInTheWasher);
+        Console.WriteLine("Dresses are clean, pants are drying");
+        Console.WriteLine("   There are " + clothesInTheWasher+" items in the washer"); 
+        Console.WriteLine("   There are "+ clothesInTheDryer+ " items in the dryer");
+
+        //Laundry Switch 5
+        pants += clothesInTheDryer;
+        clothesInTheDryer -= clothesInTheDryer;
+        Console.WriteLine("Pants are clean");
+
+        Console.WriteLine("   There are " + clothesInTheWasher+" items in the washer"); 
+        Console.WriteLine("   There are "+ clothesInTheDryer+ " items in the dryer");
+
+        Console.WriteLine("Now go fold your laundry");
+    }
+}
+//version 4, complete version
+//I had to separate shirts and pants so I could add them back into the closet 
+
