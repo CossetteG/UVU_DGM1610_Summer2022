@@ -111,7 +111,7 @@ Class:
         number is the name of the variables
         always end your lines with a ;
 
-void means no return. to be used in functions. 
+
 
 Names are one word only
 Class names start with capital letters
@@ -292,11 +292,42 @@ Commas can be used anywhere where one variable is expected to put multiple varia
     int x = 4, y = 5, z = 3;
     Console.WriteLine(x, y, z);
 
+VOID FUNCTIONS
+void functions just do work
+void means no return. to be used in functions. 
 
+"System" in "using System" is a Microsoft.net library
+libraries give us access to its functions and objects
+(class) Program, (function) Main, and Console.Writeline are part of the library System
 
+var is short for variable, you can use it to declare a variable
 
+Syntax: 
+public void FunctionName ()
+{
+    var number = 2;
+    Console.WriteLine(number);
+}
 
+in order to get a function to work that is not Main, you must CALL it
+Within the Main function, write:
+    FunctionName();
 
+within the function (), you can put in a little variable called an ARGUMENT
+    public void Main ()
+    {
+        FunctionName(8);
+        FunctionName(9);
+    }
+    public void FunctionName (int value)
+    {
+        var number = value + 2;
+    }
+
+The number in the Main function argument will be put into the fucntion argument
+Also, the fucntion will be run twice because it was put into Main twice. You can reuse functions as many times as you want
+
+You can also put in 2 arguments if you want, you just have to remember to put in two arguments in the Main function as well
 
 
 
