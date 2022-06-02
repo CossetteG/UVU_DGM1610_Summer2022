@@ -329,8 +329,31 @@ Also, the fucntion will be run twice because it was put into Main twice. You can
 
 You can also put in 2 arguments if you want, you just have to remember to put in two arguments in the Main function as well
 
+Conditions and IF statements
+within a function, you can put an if statement written as so:
+public void Compare(value1, value2)
+    if(value1 == value2) 
+    {
+        Console.WriteLine("true");
+    } else 
+    {
+        Console.WriteLine("false);
+    }
 
+the else statement denotes to do something if the if statement returns false- it is optional
+Romrell does another example where he checks a password with a string variable
 
+Operators- 3 things:
+an Operator will be its own class in which you put functions
+    public class Operations
+    {
+        public void DoMath();
+    }
+in the Main function, declare the operation the way you would a function
+        myOperator1 = new Operations();
+then, in the Main Function, you can tell any Operation to run by using periods
+        myOperator1.DoMath;
+and that'll tell the System to run that operation
 
 
 
