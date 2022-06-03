@@ -355,7 +355,73 @@ then, in the Main Function, you can tell any Operation to run by using periods
         myOperator1.DoMath;
 and that'll tell the System to run that operation
 
+if- will run the code if the condition is true
+else- will run the code if the condition is false
+else if- used to specify a new condition to test, if the first condition is false
+switch-Use to specify many alternative blocks of code to be executed
+        if (condition)
+    {
+        //block of code to be executed if condition is true
+    }
+    else if (condition2)
+    {
+        //block of code to be executed if condition is false and condition2 is true
+    }
+    else
+    {
+        //block of code to be executed if the condition is false
+    }
 
+the Shorthand version can be written as:
+    variable = (condition) ? expressionTrue : expressionFalse;
+    string result = (time < 18) ? "Good day." : "Good evening";
+    Console.WriteLine(result);
+
+enum- new kind of variable, it's like a labelling system
+switch- allows you to test different cases and tell you to do something for each case
+case- an if statement within a switch, you can have as many of these as you want
+break tells it to stop running the code, basically ends the case
+
+public enum States 
+{
+    Starting.
+    Playing.
+    Ending.
+}
+
+public States currentState = States.Starting;
+
+public void CheckState ()
+{
+    switch (currentState)
+    {
+        case States.Starting:
+            Console.WriteLine("Starting");
+            break;
+    }
+}
+if the variable States is States.Starting, then Console will write "Starting"
+right now it does becuase the public State was declared to be Starting on 392
+
+to call, declare "public GameStates gameStates; (public NameofClass newVariableName) in the Program
+and in Main write gameStates = new GameStates(); / gameStates.CheckState; (variableName = new NameofClass();)
+you can easily change your game state by saying gameStates.currentState = GameStates.Ending
+
+the sytax for switch statements is:
+    switch(expression)
+    {
+        case x:
+            //code block
+            break;
+        case y:
+            //code block
+            break;
+        default:
+            //code block
+            break;
+    }
+
+default is the else statement within a switch, in the case that none of the cases hit
 
 
 
