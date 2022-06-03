@@ -3,6 +3,24 @@ using System;
 
 public class Program
 {
+    string name = "White Diamond";
+
+    public void Main()
+	{
+		Console.WriteLine(name);
+	}
+}
+
+
+
+
+
+//CHALLENGE
+
+using System;
+
+public class Program
+{
     public string show = "Haikyuu";
     public string showType = "Animated";
     public string traumaLevel = "General Audience";
@@ -38,24 +56,82 @@ public class CheckType
 //I DONT KNOW WHAT'S WRONG BUT ITS NOT working
 // I know that it's something wrong with either the "checkType.Type;" line or the "checkType = new CheckType();" line
 // it's just not transferring info across the two different classes.
+// I think I'm going to not call
 
+using System;
 
+public class Program
+{
+    public string show = "Haikyuu";
+    public string friend = "friendName";
 
+    public string showType = "Animated";
+    public string rating = "General Audience";
+    public string citrusScale = "Lime";
+	
+	public int friendNumber = 0; 
 
+    public void Main()
+    {
+        Console.WriteLine("Which friend would like " + show + "?");
+    
+        if (showType == "Animated")
+        {
+            Console.WriteLine(show + " is an animated show.");
+            friendNumber += 100;
+        }
+        else
+        {
+            Console.WriteLine(show + " is a live action show.");
+            friendNumber += 200
+        }
 
+        switch (rating)
+        {
+            case "General Audience":
+                Console.WriteLine(show + " has little to no trauma.");
+                friendNumber += 10;
+                break;
+            case "Teen & Up":
+                Console.WriteLine(show + " has a few swears and mild trauma.");
+                friendNumber += 20;
+                break;
+			case "Mature Audience Only":
+                Console.WriteLine(show + " has prevalent swears and severe trauma.");
+                friendNumber += 30;
+				break;
+			default:
+				Console.WriteLine(show + " not rated. Watch at your own discretion.");
+				break;
+        }
 
+        switch (citrusScale)
+        {
+            case "Lime":
+                Console.WriteLine(show + " may have chaste kisses and wholesome relationships.");
+                friendNumber += 1;
+                break;
+            case "Orange":
+                Console.WriteLine(show + " has consentual relationships and may have passionate kissing.");
+                friendNumber += 2;
+                break;
+            case "Lemon":
+                Console.WriteLine(show + " has consentual adult relationships and may have explicit sex scenes.";
+                friendNumber += 3;
+                break;
+            case "Grapefruit":
+                Console.WriteLine("Trigger Warning. " + show + " may contain unethical or kinky sex.");
+                friendNumber += 4;
+            default:
+                Console.WriteLine(show + " not citrus rated. Watch at your own discretion.");
+        }
 
-
-
-
-
-
-
-
-
-
-
-
+    }
+    
+}
+//I got rid of everything that was giving me an error
+//added the switch cases
+//added friendNumber 
 
 
 
