@@ -11,6 +11,189 @@ public class Program
 	}
 }
 
+// 01b Conditionals and if statements
+// objectives: try it yourself, fix the errors, write your own code
+
+//FIXTHEERRORS
+using System;
+					
+public class Program
+{
+	public void Main()
+	{
+		Console.WriteLine("Welcome");
+		DoMath(10, 4);
+		DoMath(20, 7);
+		DoMath(30, 15);
+	}
+	
+	void DoMath (int value, int value2) {
+		var number = value + value;
+		Console.WriteLine(number);
+		}
+}
+
+//TRY IT YOURSELF (7)
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      if (20 > 18) 
+      {
+        Console.WriteLine("20 is greater than 18");
+      }    
+    }
+  }
+}
+// "Fatal error: Public Main() error is required in a public class"
+//but it should return "20 is greater than 18"
+
+using System;
+
+public class Program
+  {
+    public void Main(string[] args)
+    {
+      int x = 20;
+      int y = 18;
+      if (x > y)
+      {
+        Console.WriteLine("x is greater than y");
+      }
+    }
+  }
+}
+
+//returns x is greater than y because 20 (x) is greater than 18 (y)
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int time = 20;
+      if (time < 18) 
+      {
+        Console.WriteLine("Good day.");
+      } 
+      else 
+      {
+        Console.WriteLine("Good evening.");
+      }
+    }
+  }
+}
+
+//as it is now, it should return "Good evening.", but if int time were to be changed to 4, it would return "Good Day."
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int time = 22;
+      if (time < 10) 
+      {
+        Console.WriteLine("Good morning.");
+      } 
+      else if (time < 20) 
+      {
+        Console.WriteLine("Good day.");
+      } 
+      else 
+      {
+        Console.WriteLine("Good evening.");
+      }
+    }
+  }
+}
+
+//int time = 22, Good evening, int time = 18, Good day, int time = 4, good morning
+
+
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int day = 4;
+      switch (day) 
+      {
+        case 1:
+          Console.WriteLine("Monday");
+          break;
+        case 2:
+          Console.WriteLine("Tuesday");
+          break;
+        case 3:
+          Console.WriteLine("Wednesday");
+          break;
+        case 4:
+          Console.WriteLine("Thursday");
+          break;
+        case 5:
+          Console.WriteLine("Friday");
+          break;
+        case 6:
+          Console.WriteLine("Saturday");
+          break;
+        case 7:
+          Console.WriteLine("Sunday");
+          break;
+      }    
+    }
+  }
+}
+
+//int cases can be any number between 1-7 and the code will return a corresponding day of the week
+
+using System;
+
+namespace MyApplication
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      int day = 4;
+      switch (day) 
+      {
+        case 6:
+          Console.WriteLine("Today is Saturday.");
+          break;
+        case 7:
+          Console.WriteLine("Today is Sunday.");
+          break;
+        case 8:
+            Console.WriteLine("What universe are you living in?");
+            break;
+        default:
+          Console.WriteLine("Looking forward to the Weekend.");
+          break;
+      }    
+    }
+  }
+}
+
+//added the universe line bc im extra XD
+//but it didn't allow me to put in an expression, only a single number
+//returns Looking forward to the weekend
+
+
 
 // 01 Experiments and Practices
 
