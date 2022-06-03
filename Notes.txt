@@ -337,7 +337,7 @@ public void Compare(value1, value2)
         Console.WriteLine("true");
     } else 
     {
-        Console.WriteLine("false);
+        Console.WriteLine("false");
     }
 
 the else statement denotes to do something if the if statement returns false- it is optional

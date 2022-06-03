@@ -3,13 +3,61 @@ using System;
 
 public class Program
 {
-    string name = "White Diamond";
+    public string show = "Haikyuu";
+    public string showType = "Animated";
+    public string traumaLevel = "General Audience";
+    public string citrusScale = "Lime";
+
+   	public CheckType checkType;
 
     public void Main()
-	{
-		Console.WriteLine(name);
-	}
+    {
+        Console.WriteLine("Which friend would like this show?");
+        
+		checkType = new CheckType();
+        checkType.Type;
+    }
 }
+
+public class CheckType
+{
+	public void Type () 
+    {
+        if (showType == "Animated")
+        {
+            Console.WriteLine(Program.show + " is an animated show.");
+            break;
+        }
+        else
+        {
+            Console.WriteLine(Program.show + " is a live action show.");
+            break;
+        }
+    }
+}
+//I DONT KNOW WHAT'S WRONG BUT ITS NOT working
+// I know that it's something wrong with either the "checkType.Type;" line or the "checkType = new CheckType();" line
+// it's just not transferring info across the two different classes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 01b Conditionals and if statements
 // objectives: try it yourself, fix the errors, write your own code
