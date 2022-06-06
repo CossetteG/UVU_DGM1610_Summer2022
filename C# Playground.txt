@@ -83,7 +83,7 @@ public class Program
         else
         {
             Console.WriteLine(show + " is a live action show.");
-            friendNumber += 200
+            friendNumber += 200;
         }
 
         switch (rating)
@@ -116,14 +116,47 @@ public class Program
                 friendNumber += 2;
                 break;
             case "Lemon":
-                Console.WriteLine(show + " has consentual adult relationships and may have explicit sex scenes.";
+                Console.WriteLine(show + " has consentual adult relationships and may have explicit sex scenes.");
                 friendNumber += 3;
                 break;
             case "Grapefruit":
                 Console.WriteLine("Trigger Warning. " + show + " may contain unethical or kinky sex.");
                 friendNumber += 4;
+                break;
             default:
                 Console.WriteLine(show + " not citrus rated. Watch at your own discretion.");
+                break;
+        }
+
+        switch (friendNumber)
+        {
+            case 111:
+                Console.WriteLine("Paul would like " + show);
+                break;
+            case 121:
+                Console.WriteLine("Lindy would like " + show);
+                break;
+            case 132:
+                Console.WriteLine("Daisy would like " + show);
+                break;
+            case 221:
+                Console.WriteLine("Dylan would like " + show);
+                break;
+            case 233:
+                Console.WriteLine("Azulle would like " + show);
+                break;
+            case 232:
+                Console.WriteLine("Veronica would like " + show);
+                break;
+            case 134:
+                Console.WriteLine("That shit rated PORN. Don't watch it");
+                break;
+            case 234:
+                Console.WriteLine("That shit rated PORN. Don't watch it");
+                break;
+            default:
+                Console.WriteLine("I don't know anyone who would like " + show);
+                break;
         }
 
     }
