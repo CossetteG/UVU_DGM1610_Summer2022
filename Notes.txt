@@ -423,6 +423,152 @@ the sytax for switch statements is:
 
 default is the else statement within a switch, in the case that none of the cases hit
 
+ARRAYS AND LOOPS
+
+Arrays 
+make sure static is taken off
+Arrays are like variables but they can hold multiple things
+
+denote an array with square brackets []
+    public void Main()
+    {
+        string train = "FrontRunner";
+        string[] cars = {"Batmobile", "Racecar", "Jeep"};
+    }
+
+each thing in array is called an element
+
+    Console.WriteLine(cars[0]);
+
+To Use an array, it's written like this^, with the array name and then which element you want to use
+The counting for arrays always starts with 0, so this WriteLine would write Batmobile.
+
+    Console.WriteLine(cars.Length);
+
+This returns the number 3, because there are 3 things in the array.
+
+    foreach (var car in cars)
+    {
+        Console.WriteLine(car);
+    }
+
+foreach is a loop that runs for every element in the array. it's a read-only
+in means to use all the variables within a given array
+syntax: foreach (var(variabletype) newVariableName in arrayName) {}
+
+    string[] playerTypes = {"Pawn", "Pawn", "Pawn"};
+    
+    playerTypes[1] = "Queen"
+    for (var i = 0; i < playerTypes.Length ; i ++)
+    {
+        playerTypes[i] = "Queen";
+    }
+
+    foreach(var playerType in playerType)
+
+the for loop can loop its function within each thing in an array
+the line within the parentheses declares a variable as 0, checks to make sure that variable is less than the number of items within the array, and then it adds one to the variable every time it runs.
+basically it makes sure it runs 1x per item in the array
+
+using System;
+
+public class Program
+{
+public static void Main()
+{
+    book[] libraryObj = {new book(), new book(), new book()};
+    libraryObj[1].bookName = "Attack on Titan";
+    libraryObj[2].bookName = "Pot the Harry";
+
+    for(var i=0;i<libraryObj.Length;i++)
+    {
+        
+        libraryObj[i].popularityLevel = 2;
+    }
+
+    foreach(var item in libraryObj)
+    {
+        Console.WriteLine(item.bookName);
+        Console.WriteLine(item.popularityLevel);
+    }
+}
+}
+
+public class book
+{
+    public string bookName = "All the Light I Cannot See";
+    public int popularityLevel = 1;
+}
+
+//this code works lol
+
+
+while (condition)
+{
+    //code block to be executed
+}
+//for example
+int p = 0;
+while (p < 5)
+{
+    Console.WriteLine(p);
+    p++;
+}
+// the while loop does something while a condition is true. be careful to not make it go forever
+
+do
+{
+    //code block to be executed
+}
+while (condition);
+//for example
+int p = 0;
+do
+{
+    Console.WriteLine(p);
+    p++;
+}
+while (p < 5);
+//like the while loop except it does the code and then checks the condition so it's guaranteed to run at least once
+
+for (statement 0; statement 1; statement 2;)
+{
+    //code bock to be executed
+}
+for(declare a var; relate var to relevant int; var++)
+{
+    Console.WriteLine(var)
+
+    change something about relevant int
+    Console.WriteLine(relevant int)
+}
+//relevant in can be an array, variable, or straight number
+//statement 1 is usually a less than relationships
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine(i);
+}
+//for statements run code in this specific way and are usually used with arrays.
+for (int i = 0; i < 10; i = i + 2)
+{
+    Console.WriteLine(i);
+}
+//alternatively, this adds 2 every loop
+
+foreach (type variableName in arrayName)
+{
+    //code block to be executed
+}
+//for example
+string[] cars = {"Volvo", "BMW",};
+foreach (string i in cars)
+{
+    Console.WriteLine(i);
+}
+//another for function, specifically for arrays
+
+Array.Sort(cars)
+will sort your array? test later lol
 
 
 
