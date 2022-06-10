@@ -11,11 +11,137 @@ public class Program
 	}
 }
 
+//CHALLENGE 1C
+//I wrote this code and experimented with it on .net fiddle so this is the final product
+//also it's the same code as before I just added onto it so
+//I will add "//added" on every line that's new so you can Ctrl F to see the additions
+
+using System;
+
+public class Program
+{
+	static string[] names = {"Haikyuu", "Helluva Boss", "Outer Banks", "Midsommar"};//added
+	static string[] types = {"Animated", "Animated", "Live Action", "Live Action"};
+	static string[] ratings = {"General Audience", "Mature Audience Only", "Teen & Up", "Mature Audience Only"};
+	static string[] citrusScale = {"Lime", "Lemon", "Orange", "Grapefruit"};
+	
+    //show stats correspond vertically
+	
+	public string show = names[0];//added
+
+    public string showType = types[0];//added
+    public string showRating = ratings[0];
+    public string showCitrusScale = citrusScale[0];
+	
+	public int friendNumber = 0; 
+	
+
+    public void Main()
+    {
+        for(var i=0;i<names.Length;i++)//added
+		{
+			show = names[i];
+			showType = types[i];
+			showRating = ratings[i];
+			showCitrusScale = citrusScale[i];
+			friendNumber = 0;
+		
+		Console.WriteLine("Which friend would like " + show + "?");
+    
+        if (showType == "Animated")
+        {
+            Console.WriteLine(show + " is an animated show.");
+            friendNumber += 100;
+        }
+        else
+        {
+            Console.WriteLine(show + " is a live action show.");
+            friendNumber += 200;
+        }
+
+        switch (showRating)
+        {
+            case "General Audience":
+                Console.WriteLine(show + " has little to no trauma.");
+                friendNumber += 10;
+                break;
+            case "Teen & Up":
+                Console.WriteLine(show + " has a few swears and mild trauma.");
+                friendNumber += 20;
+                break;
+			case "Mature Audience Only":
+                Console.WriteLine(show + " has prevalent swears and severe trauma.");
+                friendNumber += 30;
+				break;
+			default:
+				Console.WriteLine(show + " not rated. Watch at your own discretion.");
+				break;
+        }
+
+        switch (showCitrusScale)
+        {
+            case "Lime":
+                Console.WriteLine(show + " may have chaste kisses and wholesome relationships.");
+                friendNumber += 1;
+                break;
+            case "Orange":
+                Console.WriteLine(show + " has consentual relationships and may have passionate kissing.");
+                friendNumber += 2;
+                break;
+            case "Lemon":
+                Console.WriteLine(show + " has consentual adult relationships and may have explicit sex scenes.");
+                friendNumber += 3;
+                break;
+            case "Grapefruit":
+                Console.WriteLine("Trigger Warning. " + show + " may contain unethical or kinky sex.");
+                friendNumber += 4;
+                break;
+            default:
+                Console.WriteLine(show + " not citrus rated. Watch at your own discretion.");
+                break;
+        }
+
+        switch (friendNumber)
+        {
+            case 111:
+                Console.WriteLine("Paul would like " + show);
+                break;
+            case 121:
+                Console.WriteLine("Lindy would like " + show);
+                break;
+            case 132:
+                Console.WriteLine("Daisy would like " + show);
+                break;
+            case 221:
+                Console.WriteLine("Dylan would like " + show);
+                break;
+            case 222:
+                Console.WriteLine("Azulle would like " + show);
+                break;
+            case 133:
+                Console.WriteLine("Veronica would like " + show);
+                break;
+            case 134:
+                Console.WriteLine("That shit rated PORN. Don't watch it");
+                break;
+            case 234:
+                Console.WriteLine("That shit rated PORN. Don't watch it");
+                break;
+            default:
+                Console.WriteLine("I don't know anyone who would like " + show);
+                break;
+        }
+		Console.WriteLine(" ");//added
+		}
+        //loop end
+    }
+    
+}
 
 
 
 
-//CHALLENGE
+//CHALLENGE 1B
 
 using System;
 
