@@ -11,6 +11,49 @@ public class Program
 	}
 }
 
+//Class Practice
+
+using System;
+
+public class Program
+{
+    public Character femaleLead = new Character();
+	
+    public void Main()
+    {
+        femaleLead.name = "Mikka";
+		Console.WriteLine(femaleLead.name);
+    }
+}
+
+public class Character
+{
+    public string name;
+    public string color;
+    public int powerLevel;
+}
+//WORKS :) 
+//returns Mikka
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //CHALLENGE 1C
 //I wrote this code and experimented with it on .net fiddle so this is the final product
 //also it's the same code as before I just added onto it so
