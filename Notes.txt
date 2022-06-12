@@ -570,6 +570,7 @@ foreach (string i in cars)
 Array.Sort(cars)
 will sort your array? test later lol
 
-
+The new Unity Project is called UnityProject1
+it's in Documents/ GitKrakenFiles/ UVU_DGM1610_Summer2022 (this repo)/ New Unity Project
 
 
