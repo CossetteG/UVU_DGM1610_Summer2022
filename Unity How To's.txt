@@ -1,0 +1,3 @@
+"C:\Users\cosse\Documents\GitKraken Files\UVU_DGM1610_Summer2022\New Unity Project\Assets\UnityProject1.unity"
+^the location of my Unity Project
+
