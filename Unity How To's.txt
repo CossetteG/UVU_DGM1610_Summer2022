@@ -1,3 +1,69 @@
 "C:\Users\cosse\Documents\GitKraken Files\UVU_DGM1610_Summer2022\New Unity Project\Assets\UnityProject1.unity"
 ^the location of my Unity Project
 
+Code Words for C # in Unity
+
+//base
+using UnityEngine;
+using System.Collections;
+
+public class NewBehaviourScript : MonoBehaviour {
+
+    // Use this for initialization
+    void Start () {
+    
+    }
+    
+    // Update is called once per frame
+    void Update () {
+    
+    }
+}
+
+//to use in an update class:
+//input keyboard info and edit rendering info
+    if (Input.GetKeyDown(KeyCode.R))
+        {
+            GetComponent<Renderer> ().material.color = Color.red;
+        }
+
+//writes stuff
+Debug.Log("words to write"); 
+
+
+Scripts
+Scripts is where you'll put behavior code for an object. 
+an object will obey a script only if that script is applied to the object
+To create a new script: Assets > Create > New C # Script 
+
+Variable Note: (declaration) = (initialization);
+
+Functions
+public class VariablesAndFunctions : MonoBehaviour
+{   
+    int myInt = 5;
+    //this is the initial declaration of the int myInt
+    
+    void Start ()
+    //this function runs upon starting. void means no return
+    {
+        myInt = MultiplyByTwo(myInt);
+        //redeclaring myInt to = calling the function MultiplyByTwo using the original myInt
+        Debug.Log (myInt);
+        //write what the new myInt equals
+    }
+    
+    
+    int MultiplyByTwo (int number)
+    //new function called MultiplyByTwo. int means return an int; declared temporary int to use in the function
+    {
+        int result; //new integer specifically to be the result
+        result = number * 2; //performing operation
+        return result; //using the word return to return the integer it came up with and make the call work
+    }
+}
+//this script should write 10
+
+Comments and Disablers
+//single line 
+/* multiple line */
