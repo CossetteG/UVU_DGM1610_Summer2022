@@ -8,6 +8,7 @@ using UnityEngine;
 using System.Collections;
 
 public class NewBehaviourScript : MonoBehaviour {
+    //the public class MonoBehaviour is like the Main class- it is the class to call to
 
     // Use this for initialization
     void Start () {
@@ -67,3 +68,31 @@ public class VariablesAndFunctions : MonoBehaviour
 Comments and Disablers
 //single line 
 /* multiple line */
+
+Classes are like custom components 
+you can attach a script by dragging the script asset to a Game Object in the hierarchy panel or to the 
+inspector of the Game Object that is currently selected
+Or you can go the the Component Menu > Scripts
+Variables with in a class can be edited with the component editor just like any other component. 
+Edit variables in the inspector
+To see a variable within the inspector, decalre it as public
+Unity capitalizes things sometimes? (m_, k, _, Capitalizes, adds spaces between capitals, adds spaces between acronyms)
+
+I skipped prefab bc brain hurt and also idk wtf a prefab is (pre-fabricated asset maybe?)
+
+Order of Execution:
+start:
+Initialization > Physics > Input events > Game Logic > Scene, Gizmo, GUI Rendering > End of Frame, Pause, Update Loops, Decommissioning
+functions: 
+Awake, OnEnable, Reset, OnValidate, Start, OnApplicationPause, 
+FixedUpdate (independent of frames), Update (1x per frame), Late Update (after Update),  
+animations: 
+OnStateMachineEnter, OnStateMachineUpdate, OnStateMachineExit, FireAnimationEvents, On AnimatorMove, StateMachineBehaviour(OnStateMove), WriteProperties
+rendering: 
+OnPreCull, OnBecameVisible/OnBecameInvisible, OnWillRenderObject, OnPreRender, OnRenderObject, OnPostRender, OnRenderImage, OnGUI, OnDrawGizmos
+coroutines (yield):
+yield, yield WaitForSeconds, yield WaitForFixedUpdate, yield WWW, yield StartCoroutine
+end:
+OnDestroy, OnApplicationQuit, OnDisable
+
+
