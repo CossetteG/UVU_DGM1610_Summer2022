@@ -150,3 +150,22 @@ Sometimes you'll reference a variable that was not initialized or you'll initial
 there are ways to catch this but Unity will usually tell you:
 NullReferenceException: Object reference not set to an instance of an object
   at Example.Start () [0x0000b] in /Unity/projects/nre/Assets/Example.cs:10 
+
+
+IMPORTANT CLASSES 
+GameOjbect: Represents the type of objects which can exist in a Scene
+MonoBehaviour:The base class from which every Unity script derives
+Object: The base class for all objects that Unity can reference in the editor
+Transform: Provides you with a variety of ways to work with a GameObject’s position, rotation and scale via script, as well as its hierarchical relationship to parent and child GameObjects.
+Vectors: Classes for expressing and manipulating 2D, 3D, and 4D points, lines and directions.
+Quaternion: A class which represents an absolute or relative rotation, and provides methods for creating and manipulating them.
+ScriptableObject: A data container that you can use to save large amounts of data.
+Time (and framerate management): The Time class allows you to measure and control time, and manage the framerate of your project.
+Mathf: A collection of common math functions, including trigonometric, logarithmic, and other functions commonly required in games and app development.
+Random: Provides you with easy ways of generating various commonly required types of random values.
+Debug: Allows you to visualise information in the Editor that may help you understand or investigate what is going on in your project while it is running.
+Gizmos and Handles: allows you to draw lines and shapes in the Scene view
+ and Game view, as well as interactive handles and controls.
+
+https://uvu.instructure.com/courses/537783/pages/read-scripting-essentials-and-important-classes?module_item_id=9945146
+for more info on class types
