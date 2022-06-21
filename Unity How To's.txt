@@ -95,4 +95,58 @@ yield, yield WaitForSeconds, yield WaitForFixedUpdate, yield WWW, yield StartCor
 end:
 OnDestroy, OnApplicationQuit, OnDisable
 
+use Update for animations and character movement
+use FixedUpdate for physics engines 
+use LateUpdate for cameras
 
+Coroutines allow you to spread tasks across several frames
+It’s best to use coroutines if you need to deal with long asynchronous operations,
+ such as waiting for HTTP transfers, asset loads, or file I/O to complete.
+Courotines are good for animations 
+
+
+This is a normal code to fade an opacity (alpha) down to 0:
+void Fade()
+{
+    Color c = renderer.material.color;
+    for (float alpha = 1f; alpha >= 0; alpha -= 0.1f)
+    {
+        c.a = alpha;
+        renderer.material.color = c;
+    }
+}
+you would have to call an Update function to get this to work
+Here is a corotine code to do the same thing:
+IEnumerator Fade()
+{
+    Color c = renderer.material.color;
+    for (float alpha = 1f; alpha >= 0; alpha -= 0.1f)
+    {
+        c.a = alpha;
+        renderer.material.color = c;
+        yield return null;
+    }
+}
+
+And this is how you would call it:
+void Update()
+{
+    if (Input.GetKeyDown("f"))
+    {
+        StartCoroutine(Fade());
+    }
+}
+
+Corotines are declared with IEnumerator and return type is yield
+The yield return nullline is the point where execution pauses and resumes in the following frame
+Unity will run a coroutine after a yield statement, ie "yield return new WaitForSeconds(.1f);
+this is useful to edit how often a fucntion runs
+
+Be careful about not using the same name for different things
+using (Classname); will give you access in everything in that class and be equivalent to saying Classname.Variablename everytime
+
+Null Reference- refer back to the manual lol
+Sometimes you'll reference a variable that was not initialized or you'll initialize a variable that you do not use
+there are ways to catch this but Unity will usually tell you:
+NullReferenceException: Object reference not set to an instance of an object
+  at Example.Start () [0x0000b] in /Unity/projects/nre/Assets/Example.cs:10 
