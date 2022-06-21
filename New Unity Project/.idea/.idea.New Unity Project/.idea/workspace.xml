@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee6417f-c22a-4f64-b6d3-d624531034b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BehavioiurScript1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehavioiurScript1.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +11,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/BehavioiurScript1.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="2AfZptVDXDgxtsNG2iuz8WZE4th" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -59,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655402812742</updated>
       <workItem from="1655402892606" duration="47000" />
+      <workItem from="1655667860224" duration="171000" />
     </task>
     <servers />
   </component>
