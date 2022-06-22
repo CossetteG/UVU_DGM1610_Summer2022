@@ -36,6 +36,8 @@ Scripts
 Scripts is where you'll put behavior code for an object. 
 an object will obey a script only if that script is applied to the object
 To create a new script: Assets > Create > New C # Script 
+The class name and the file name must be the same to enable the script component to be attached to a GameObject
+A script won't run unless it's attached to a GameObject
 
 Variable Note: (declaration) = (initialization);
 
@@ -63,7 +65,7 @@ public class VariablesAndFunctions : MonoBehaviour
         return result; //using the word return to return the integer it came up with and make the call work
     }
 }
-//this script should write 10
+//this script should write 10 
 
 Comments and Disablers
 //single line 
@@ -169,3 +171,4 @@ Gizmos and Handles: allows you to draw lines and shapes in the Scene view
 
 https://uvu.instructure.com/courses/537783/pages/read-scripting-essentials-and-important-classes?module_item_id=9945146
 for more info on class types
+
