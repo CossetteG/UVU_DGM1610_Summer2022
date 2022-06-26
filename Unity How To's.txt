@@ -38,6 +38,9 @@ an object will obey a script only if that script is applied to the object
 To create a new script: Assets > Create > New C # Script 
 The class name and the file name must be the same to enable the script component to be attached to a GameObject
 A script won't run unless it's attached to a GameObject
+To attatch a script, click and drag to to the inspector of the Game Object or find it in the scripts submenu on the Component menu 
+GameObjects are controlled by the Components that are attached to them
+
 
 Variable Note: (declaration) = (initialization);
 
@@ -171,4 +174,27 @@ Gizmos and Handles: allows you to draw lines and shapes in the Scene view
 
 https://uvu.instructure.com/courses/537783/pages/read-scripting-essentials-and-important-classes?module_item_id=9945146
 for more info on class types
+
+Variables and the inspector
+the Inspector is where you can see all the Components attatched to a Game Object and 
+all the editable variables within those components
+Unity will notice your editable variables and let you edit them in your code. 
+for example, this code lets you change your name:
+
+using UnityEngine;
+using System.Collections;
+
+public class MainPlayer : MonoBehaviour
+{
+    public string myName;
+
+    void Start ()
+    {
+        Debug.Log("I am alive and my name is " + my Name);
+    }
+}
+
+this allows you to change variables as needed, even while you're playing
+
+
 
