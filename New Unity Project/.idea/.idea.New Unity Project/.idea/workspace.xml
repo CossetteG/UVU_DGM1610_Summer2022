@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fee6417f-c22a-4f64-b6d3-d624531034b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/AnotherClass.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/AnotherClass.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/L4Loops.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/L4Loops.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fee6417f-c22a-4f64-b6d3-d624531034b1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,8 +24,8 @@
       <option value="$PROJECT_DIR$/Assets/L2Double.cs" />
       <option value="$PROJECT_DIR$/Assets/L3CoffeeTester.cs" />
       <option value="$PROJECT_DIR$/Assets/L4Loops.cs" />
-      <option value="$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs" />
       <option value="$PROJECT_DIR$/Assets/AnotherClass.cs" />
+      <option value="$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2AfZptVDXDgxtsNG2iuz8WZE4th" />
@@ -88,7 +79,7 @@
       <updated>1655402812742</updated>
       <workItem from="1655402892606" duration="47000" />
       <workItem from="1655667860224" duration="171000" />
-      <workItem from="1656271480439" duration="6241000" />
+      <workItem from="1656271480439" duration="6492000" />
     </task>
     <servers />
   </component>
