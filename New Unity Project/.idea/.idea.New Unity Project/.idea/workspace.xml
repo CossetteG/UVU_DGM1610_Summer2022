@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee6417f-c22a-4f64-b6d3-d624531034b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/BehavioiurScript1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehavioiurScript1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L1ColorChanger.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,15 +15,19 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/BehavioiurScript1.cs" />
+      <option value="$PROJECT_DIR$/Assets/L1ColorChanger.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2AfZptVDXDgxtsNG2iuz8WZE4th" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -65,6 +69,7 @@
       <updated>1655402812742</updated>
       <workItem from="1655402892606" duration="47000" />
       <workItem from="1655667860224" duration="171000" />
+      <workItem from="1656271480439" duration="296000" />
     </task>
     <servers />
   </component>
@@ -73,7 +78,19 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>
