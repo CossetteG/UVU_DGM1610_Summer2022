@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee6417f-c22a-4f64-b6d3-d624531034b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/L2Double.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/L2Double.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/L3CoffeeTester.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/L3CoffeeTester.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AnotherClass.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AnotherClass.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L4Loops.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L4Loops.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -19,7 +21,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/L3CoffeeTester.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/L4Loops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L2Double.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AnotherClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -27,6 +32,9 @@
       <option value="$PROJECT_DIR$/Assets/L1ColorChanger.cs" />
       <option value="$PROJECT_DIR$/Assets/L2Double.cs" />
       <option value="$PROJECT_DIR$/Assets/L3CoffeeTester.cs" />
+      <option value="$PROJECT_DIR$/Assets/L4Loops.cs" />
+      <option value="$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs" />
+      <option value="$PROJECT_DIR$/Assets/AnotherClass.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2AfZptVDXDgxtsNG2iuz8WZE4th" />
@@ -80,7 +88,7 @@
       <updated>1655402812742</updated>
       <workItem from="1655402892606" duration="47000" />
       <workItem from="1655667860224" duration="171000" />
-      <workItem from="1656271480439" duration="2606000" />
+      <workItem from="1656271480439" duration="6241000" />
     </task>
     <servers />
   </component>
