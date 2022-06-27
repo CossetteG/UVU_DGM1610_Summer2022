@@ -12,7 +12,12 @@
         <e p="L2Double.cs" t="Include" />
         <e p="L3CoffeeTester.cs" t="Include" />
         <e p="L4Loops.cs" t="Include" />
+        <e p="L5Awake and Start.cs" t="Include" />
         <e p="L5ScopeAndAccess.cs" t="Include" />
+        <e p="L6LightToggle.cs" t="Include" />
+        <e p="L7Activating.cs" t="Include" />
+        <e p="L8Mover.cs" t="Include" />
+        <e p="L9CameraLookAt.cs" t="Include" />
       </e>
       <e p="New Unity Project.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

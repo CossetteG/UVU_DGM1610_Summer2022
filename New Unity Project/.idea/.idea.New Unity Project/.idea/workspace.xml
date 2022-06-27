@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fee6417f-c22a-4f64-b6d3-d624531034b1" name="Default Changelist" comment="" />
+    <list default="true" id="fee6417f-c22a-4f64-b6d3-d624531034b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/L5Awake and Start.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L5Awake and Start.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L6LightToggle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L6LightToggle.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L7Activating.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L7Activating.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L8Mover.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L8Mover.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L9CameraLookAt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/L9CameraLookAt.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +26,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/L3CoffeeTester.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/L7Activating.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L4Loops.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/L8Mover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L2Double.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AnotherClass.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/L9CameraLookAt.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -26,6 +42,11 @@
       <option value="$PROJECT_DIR$/Assets/L4Loops.cs" />
       <option value="$PROJECT_DIR$/Assets/AnotherClass.cs" />
       <option value="$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs" />
+      <option value="$PROJECT_DIR$/Assets/L5Awake and Start.cs" />
+      <option value="$PROJECT_DIR$/Assets/L6LightToggle.cs" />
+      <option value="$PROJECT_DIR$/Assets/L7Activating.cs" />
+      <option value="$PROJECT_DIR$/Assets/L8Mover.cs" />
+      <option value="$PROJECT_DIR$/Assets/L9CameraLookAt.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="2AfZptVDXDgxtsNG2iuz8WZE4th" />
@@ -80,6 +101,7 @@
       <workItem from="1655402892606" duration="47000" />
       <workItem from="1655667860224" duration="171000" />
       <workItem from="1656271480439" duration="6492000" />
+      <workItem from="1656348508683" duration="4527000" />
     </task>
     <servers />
   </component>
@@ -98,6 +120,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
