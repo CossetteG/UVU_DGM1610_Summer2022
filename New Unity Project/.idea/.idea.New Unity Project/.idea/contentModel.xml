@@ -8,6 +8,9 @@
       <e p="Assets" t="Include">
         <e p="AnotherClass.cs" t="Include" />
         <e p="BehavioiurScript1.cs" t="Include" />
+        <e p="L10Destroy.cs" t="Include" />
+        <e p="L11KeyInput.cs" t="Include" />
+        <e p="L12Mouse.cs" t="Include" />
         <e p="L1ColorChanger.cs" t="Include" />
         <e p="L2Double.cs" t="Include" />
         <e p="L3CoffeeTester.cs" t="Include" />

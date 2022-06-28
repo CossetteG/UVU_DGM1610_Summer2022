@@ -23,4 +23,11 @@ public class AnotherClass
         answer = a * b;
         Debug.Log("Office Supplies total: " + answer);
     }
+    
+    //linear interpolation: 4
+    private float result = Mathf.Lerp(3f, 5f, 0.5f);
+    //can be used with float, color, and vector3 values
+    //to fade something
+    //light.intensity obj = Mathf.Lerp(light.intensity, 8f, 0.4f*Time.deltaTime);
+    //but it may be better to use SmoothDamp function
 }
