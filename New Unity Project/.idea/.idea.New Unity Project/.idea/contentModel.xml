@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="AnotherClass.cs" t="Include" />
         <e p="BehavioiurScript1.cs" t="Include" />
+        <e p="FloatData.cs" t="Include" />
         <e p="L10Destroy.cs" t="Include" />
         <e p="L11KeyInput.cs" t="Include" />
         <e p="L12Mouse.cs" t="Include" />
@@ -21,6 +22,9 @@
         <e p="L7Activating.cs" t="Include" />
         <e p="L8Mover.cs" t="Include" />
         <e p="L9CameraLookAt.cs" t="Include" />
+        <e p="ScriptableObjExample.cs" t="Include" />
+        <e p="TextLabelBehaviour.cs" t="Include" />
+        <e p="TriggerEventBehaviour.cs" t="Include" />
       </e>
       <e p="New Unity Project.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
