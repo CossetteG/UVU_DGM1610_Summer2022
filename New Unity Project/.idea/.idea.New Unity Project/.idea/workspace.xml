@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee6417f-c22a-4f64-b6d3-d624531034b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Circle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Circle.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IntData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/IntData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Points.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Points.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextPoints.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextPoints.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UnityProject1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityProject1.unity" afterDir="false" />
@@ -116,7 +107,7 @@
       <workItem from="1656271480439" duration="6492000" />
       <workItem from="1656348508683" duration="5117000" />
       <workItem from="1656390191904" duration="4971000" />
-      <workItem from="1656749596122" duration="13981000" />
+      <workItem from="1656749596122" duration="15197000" />
     </task>
     <servers />
   </component>
