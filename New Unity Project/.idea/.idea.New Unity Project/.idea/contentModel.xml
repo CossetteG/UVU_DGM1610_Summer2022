@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="AnotherClass.cs" t="Include" />
         <e p="BehavioiurScript1.cs" t="Include" />
+        <e p="EventExampleCode.cs" t="Include" />
         <e p="FloatData.cs" t="Include" />
         <e p="IntData.cs" t="Include" />
         <e p="L10Destroy.cs" t="Include" />
@@ -23,6 +24,7 @@
         <e p="L7Activating.cs" t="Include" />
         <e p="L8Mover.cs" t="Include" />
         <e p="L9CameraLookAt.cs" t="Include" />
+        <e p="MonoEventsBehaviour.cs" t="Include" />
         <e p="ScriptableObjExample.cs" t="Include" />
         <e p="TextLabelBehaviour.cs" t="Include" />
         <e p="TextPoints.cs" t="Include" />

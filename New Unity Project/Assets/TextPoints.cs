@@ -11,10 +11,10 @@ public class TextPoints : MonoBehaviour
     private void Start()
     {
         ptText = GetComponent<Text>();
-        UpdateText();
+        
     }
 
-    public void UpdateText()
+    public void Update()
     {
         ptText.text = ptInt.numberr.ToString();
     }

@@ -7,6 +7,10 @@ public class IntData : ScriptableObject
 {
     public int numberr;
 
+    public void SetValue(int num)
+    {
+        numberr = num;
+    }
     public void UpdateNumber(int numb)
     {
         numberr += numb;
