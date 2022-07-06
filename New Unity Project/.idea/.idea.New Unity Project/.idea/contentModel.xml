@@ -25,7 +25,7 @@
         <e p="L8Mover.cs" t="Include" />
         <e p="L9CameraLookAt.cs" t="Include" />
         <e p="MonoEventsBehaviour.cs" t="Include" />
-        <e p="MouseOverEventBehaviour.cs" t="Include" />
+        <e p="MouseEnterEventBehaviour.cs" t="Include" />
         <e p="ScriptableObjExample.cs" t="Include" />
         <e p="TextData.cs" t="Include" />
         <e p="TextLabelBehaviour.cs" t="Include" />

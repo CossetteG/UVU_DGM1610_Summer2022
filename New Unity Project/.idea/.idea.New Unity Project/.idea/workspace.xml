@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fee6417f-c22a-4f64-b6d3-d624531034b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MouseOverEventBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextData.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextData.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WordDataBehaviour.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/WordDataBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MouseEnterEventBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MouseEnterEventBehaviour.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.New Unity Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouseOverEventBehaviour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MouseOverEventBehaviour.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UnityProject1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityProject1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WordDataBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WordDataBehaviour.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/L8Mover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/AnotherClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MonoEventsBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MouseOverEventBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventExampleCode.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L11KeyInput.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -64,8 +62,9 @@
       <option value="$PROJECT_DIR$/Assets/FloatData.cs" />
       <option value="$PROJECT_DIR$/Assets/IntData.cs" />
       <option value="$PROJECT_DIR$/Assets/EventExampleCode.cs" />
-      <option value="$PROJECT_DIR$/Assets/MouseOverEventBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/TextData.cs" />
+      <option value="$PROJECT_DIR$/Assets/MouseOverEventBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/MouseEnterEventBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/WordDataBehaviour.cs" />
     </changedPaths>
   </component>
@@ -88,6 +87,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -125,7 +125,7 @@
       <workItem from="1656390191904" duration="4971000" />
       <workItem from="1656749596122" duration="15197000" />
       <workItem from="1656910720895" duration="5264000" />
-      <workItem from="1657083670394" duration="3257000" />
+      <workItem from="1657083670394" duration="5336000" />
     </task>
     <servers />
   </component>

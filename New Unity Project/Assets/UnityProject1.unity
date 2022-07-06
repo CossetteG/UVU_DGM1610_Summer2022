@@ -6421,7 +6421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f106fba9eb76174a98bb4f1f5c7b454, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverEvent:
+  mouseEnterEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 1bcbf755ffff6f343a1c732bc03645f6, type: 2}
@@ -7176,7 +7176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f106fba9eb76174a98bb4f1f5c7b454, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseOverEvent:
+  mouseEnterEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 1bcbf755ffff6f343a1c732bc03645f6, type: 2}

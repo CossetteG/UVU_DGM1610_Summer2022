@@ -1,0 +1,17 @@
+﻿using UnityEngine;
+using UnityEngine.Events;
+
+public class MouseEnterEventBehaviour : MonoBehaviour
+{
+    public UnityEvent mouseEnterEvent;
+    public bool mybool =true;
+
+    private void OnMouseEnter(Collider other)
+    {
+        if (mybool == true)
+        {
+            mouseEnterEvent.Invoke();
+        }
+            
+    }
+}
