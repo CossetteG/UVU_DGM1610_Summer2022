@@ -9,7 +9,9 @@
       <change beforePath="$PROJECT_DIR$/Assets/MouseOverEventBehaviour.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MouseOverEventBehaviour.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/UnityProject1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/UnityProject1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WinLoseText.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WinLoseText.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/WordDataBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WordDataBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WordDataBehaviour.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WordDataBehaviour.cs.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +25,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/WordDataBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L3CoffeeTester.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L12Mouse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L10Destroy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L7Activating.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L4Loops.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L2Double.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L9CameraLookAt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TextData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/L5ScopeAndAccess.cs" root0="FORCE_HIGHLIGHTING" />
@@ -125,7 +129,7 @@
       <workItem from="1656390191904" duration="4971000" />
       <workItem from="1656749596122" duration="15197000" />
       <workItem from="1656910720895" duration="5264000" />
-      <workItem from="1657083670394" duration="5336000" />
+      <workItem from="1657083670394" duration="5694000" />
     </task>
     <servers />
   </component>
