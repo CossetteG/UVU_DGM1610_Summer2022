@@ -126,4 +126,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e4b47906c8bfe4792af9bf357d433c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 0.5
+  enemySpeed: 1
