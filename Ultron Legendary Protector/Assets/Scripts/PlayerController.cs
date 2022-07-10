@@ -8,9 +8,6 @@ public class PlayerController : MonoBehaviour
     
     public float xrange = 17f;
 
-    public Transform blaster;
-    public GameObject projectile;
-     
     void Update() 
     { 
         
@@ -24,8 +21,9 @@ public class PlayerController : MonoBehaviour
         if (transform.position.x > xrange)
             transform.position = new Vector3(xrange, transform.position.y, transform.position.z);
 
-        if (Input.GetKeyUp(KeyCode.Space))
-            Instantiate(projectile, blaster.transform.position, projectile.transform.rotation);
+        
+
+
 
 
     }
@@ -34,5 +32,6 @@ public class PlayerController : MonoBehaviour
     {
         Destroy(other.gameObject); 
     }
+    
     
 }
