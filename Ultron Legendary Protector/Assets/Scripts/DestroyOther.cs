@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BulletsHurt : MonoBehaviour
+public class DestroyOther : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject); 
+        Destroy(other.gameObject);
+        Destroy(gameObject);
     }
 }
