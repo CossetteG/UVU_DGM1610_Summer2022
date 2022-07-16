@@ -27,12 +27,14 @@ public class GameOver : MonoBehaviour
         if (player1 == false)
         {
             Debug.Log("Game Over");
+            Time.timeScale = 0;
             stopp++;
         }
         
         if (world == false)
         {
             Debug.Log("Game Over");
+            Time.timeScale = 0;
             stopp++;
         }
     }
