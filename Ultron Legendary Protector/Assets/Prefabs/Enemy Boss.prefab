@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8331398866381911292}
   - component: {fileID: 8331398866381911293}
   - component: {fileID: 3002695465049363773}
-  - component: {fileID: -8619920837848607540}
+  - component: {fileID: -8934122303705483143}
   m_Layer: 0
   m_Name: Enemy Boss
   m_TagString: Untagged
@@ -127,8 +127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e4b47906c8bfe4792af9bf357d433c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: 1
---- !u!114 &-8619920837848607540
+  enemySpeed: 3
+--- !u!114 &-8934122303705483143
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -4,37 +4,36 @@ using UnityEngine;
 
 public class GameOver : MonoBehaviour
 {
-    public float spaceBoundstop;
-    public float spaceBoundsbottom;
-    public GameObject enemy;
-    public GameObject enemyC;
-    public GameObject enemyB;
+    public GameObject world;
     public GameObject player1;
-    private int stopp = 0;
+
+    private int stopp;
+    void Start()
+    {
+        stopp = 0;
+    }
+
     void Update()
     {
-        if (enemy.transform.position.x >= spaceBoundsbottom)
-            Debug.Log(" ");
-        else if (enemy.transform.position.x <= spaceBoundstop)
-                Debug.Log("Game Over");
-        
-        if (enemyC.transform.position.x >= spaceBoundsbottom)
-            Debug.Log(" ");
-        else if (enemyC.transform.position.x <= spaceBoundstop)
-            Debug.Log("Game Over");
-        
-        if (enemyB.transform.position.x >= spaceBoundsbottom)
-            Debug.Log(" ");
-        else if (enemyB.transform.position.x <= spaceBoundstop)
-            Debug.Log("Game Over");
 
+        if (stopp == 0)
+        {
+            SayGameOver();
+        }
+    }
+
+    void SayGameOver()
+    {
         if (player1 == false)
-            Debug.Log(" ");
-        else if (stopp == 1)
         {
             Debug.Log("Game Over");
             stopp++;
         }
-
+        
+        if (world == false)
+        {
+            Debug.Log("Game Over");
+            stopp++;
+        }
     }
 }

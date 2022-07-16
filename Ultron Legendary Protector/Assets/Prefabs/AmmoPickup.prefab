@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 1217765803906306076}
   - component: {fileID: 1217765803906306077}
   - component: {fileID: 1217765803906306066}
-  - component: {fileID: 1217765803906306067}
   - component: {fileID: 1217765803906306064}
   m_Layer: 0
   m_Name: AmmoPickup
@@ -142,19 +141,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1217765803906306067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1217765803906306065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 495f94223a019914c8173e1b23fc7760, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerCol: {fileID: 0}
 --- !u!114 &1217765803906306064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,4 +153,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19e4b47906c8bfe4792af9bf357d433c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemySpeed: -1
+  enemySpeed: -4
