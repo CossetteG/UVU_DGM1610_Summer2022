@@ -4,9 +4,17 @@ using UnityEngine;
 
 public class DestroyOther : MonoBehaviour
 {
+
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(other.gameObject);
-        Destroy(gameObject);
+		if(other.gameObject.tag == "Player")
+		{
+			Destroy(other.gameObject);
+		}
+		if(other.gameObject.tag == "World")
+		{
+			Destroy(other.gameObject);
+		}
     }
+	
 }
