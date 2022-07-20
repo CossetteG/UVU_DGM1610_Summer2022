@@ -13,14 +13,5 @@ public class ScriptableInt : ScriptableObject
         Debug.Log("Ammo Count: " + number);
     }
 
-    /*private void Update()
-    {
-        if (number <= 0)
-           noammo  = true;
-        else
-        {
-            noammo = false;
-        }
-    }*/
     
 }

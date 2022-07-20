@@ -7,7 +7,7 @@ public class EnemySpawnerScript : MonoBehaviour
     public GameObject[] enemyPrefabs;
 
     public float enemySpawnX = 22f;
-    private float enemySpawnZ = 12f;
+    public float enemySpawnZ = 12f;
     private float spawnDelay = 5f;
     private float spawnInterval = 2f;
 

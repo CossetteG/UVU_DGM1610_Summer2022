@@ -21,7 +21,7 @@ public class Shooty : MonoBehaviour
 
     public void Shooter()
     {
-        if (Input.GetKeyUp(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
             Instantiate(projectile, blaster.transform.position, projectile.transform.rotation);
         if (Input.GetKeyDown(KeyCode.Space))
             ammoDownEvent.Invoke();

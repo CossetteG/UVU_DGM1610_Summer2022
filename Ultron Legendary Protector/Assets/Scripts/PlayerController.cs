@@ -20,14 +20,7 @@ public class PlayerController : MonoBehaviour
             transform.position = new Vector3(-xrange, transform.position.y, transform.position.z);
         if (transform.position.x > xrange)
             transform.position = new Vector3(xrange, transform.position.y, transform.position.z);
-
-        
-
-
-
-
     }
-
     private void OnTriggerEnter(Collider other)
     {
         Destroy(other.gameObject); 

@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1217765803906306079}
   - component: {fileID: 1217765803906306076}
   - component: {fileID: 1217765803906306077}
-  - component: {fileID: 1217765803906306066}
   - component: {fileID: 1217765803906306064}
+  - component: {fileID: 8753415773359098113}
   m_Layer: 0
   m_Name: AmmoPickup
   m_TagString: Untagged
@@ -115,7 +115,20 @@ CapsuleCollider:
   m_Height: 1.0000002
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1217765803906306066
+--- !u!114 &1217765803906306064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1217765803906306065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19e4b47906c8bfe4792af9bf357d433c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemySpeed: -4
+--- !u!114 &8753415773359098113
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -141,16 +154,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1217765803906306064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1217765803906306065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19e4b47906c8bfe4792af9bf357d433c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enemySpeed: -4
