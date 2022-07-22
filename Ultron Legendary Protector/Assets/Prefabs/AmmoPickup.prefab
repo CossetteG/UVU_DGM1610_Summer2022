@@ -154,3 +154,5 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  scoreManager: {fileID: 0}
+  AmmoCount: {fileID: 11400000, guid: 6ff87a1a00c335846972cc868d09ce56, type: 2}

@@ -10,25 +10,18 @@ public class ScoreManager : MonoBehaviour
 
     public ScriptableInt AmmoCount;
     public ScriptableInt ScoreCount;
-    public int scoreAdder;
-    public int score;
-    public int ammo;
+
+    public void Start()
+    {
+        AmmoCount.number = 5;
+        ScoreCount.number = 0;
+    }
 
     public void Update()
     {
-        score = ScoreCount.number;
-        ammo = AmmoCount.number;
+        scoretxt.text = "Score: " + ScoreCount.number;
+        ammotxt.text = "Ammo: " + AmmoCount.number;
+
     }
-    
-    public void AddToScore()
-        {
-            ScoreCount.number += scoreAdder;
-            UpdateScore();
-        }
-    
-    public void UpdateScore()
-        {
-            scoretxt.text = "Score: " + score;
-        }
     
 }       

@@ -141,6 +141,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8493742808d09d48a16dd931cd7411f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BulletHitEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 19c6f27aa6ff1be458e9722564764a9c, type: 2}
+        m_MethodName: UpdateInt
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 100
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!136 &6141056971916578594
 CapsuleCollider:
   m_ObjectHideFlags: 0

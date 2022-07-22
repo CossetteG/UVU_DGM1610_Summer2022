@@ -1,18 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BulletsHurt : MonoBehaviour
 {
-    public ScoreManager ScoreManager;
+    //public ScriptableInt ScoreCount;
+	public UnityEvent BulletHitEvent;
+
     private void OnTriggerEnter(Collider other)
     {
         Destroy(other.gameObject);
         Destroy(gameObject);
-    
-        if (other.gameObject.tag == "Enemy")
-        {
-            ScoreManager.AddToScore();
-        }
+		
+		if (other.tag == "Enemy")
+			BulletHitEvent.Invoke();
     }
 }
