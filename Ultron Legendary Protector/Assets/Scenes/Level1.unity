@@ -509,6 +509,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4510410843970458119, guid: e47059e102ca15b478232e2d4dbb6701,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReloadScene
+      objectReference: {fileID: 0}
     - target: {fileID: 6069725342500166772, guid: e47059e102ca15b478232e2d4dbb6701,
         type: 3}
       propertyPath: m_Pivot.x
@@ -650,9 +655,11 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 765191292121314829, guid: 9f52ba53784745e4a9f29342ced10746, type: 3}
   - {fileID: 765191292121314829, guid: 9f52ba53784745e4a9f29342ced10746, type: 3}
+  - {fileID: 765191292121314829, guid: 9f52ba53784745e4a9f29342ced10746, type: 3}
   - {fileID: 6752962448554218354, guid: c3a527e40eb860d448a09429ffab6f1d, type: 3}
   - {fileID: 6752962448554218354, guid: c3a527e40eb860d448a09429ffab6f1d, type: 3}
   - {fileID: 8331398866381911294, guid: dea15ba194dcd5e458c65093a00e94de, type: 3}
+  - {fileID: 1217765803906306065, guid: 8366d0aa10d720c448963e7ab9460e5d, type: 3}
   - {fileID: 1217765803906306065, guid: 8366d0aa10d720c448963e7ab9460e5d, type: 3}
   enemySpawnX: 17
   enemySpawnZ: 12
@@ -664,7 +671,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662385977}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -8}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1093,6 +1100,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 167944608}
     m_Modifications:
+    - target: {fileID: 6073707319875851600, guid: d1e47b43b5f977349a82c4c740582a74,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ToMenu
+      objectReference: {fileID: 0}
     - target: {fileID: 6073707319875851602, guid: d1e47b43b5f977349a82c4c740582a74,
         type: 3}
       propertyPath: m_Pivot.x

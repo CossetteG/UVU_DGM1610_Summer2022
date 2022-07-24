@@ -21,6 +21,7 @@ public class GameOver : MonoBehaviour
     {
         stopp = 0;
 		gameOverTxt.text = textControl;
+		Time.timeScale = 1;
 		if(stopp == 0)
 		{
 			bbutton.SetActive(false);
@@ -61,6 +62,7 @@ public class GameOver : MonoBehaviour
 			bbutton.SetActive(true);
 			rbutton.SetActive(true);
 		}
+		Debug.Log("Press N to restart and M to go to the Main Menu. idk why but my mouse doesn't like me.");
 		
 	}
 	
