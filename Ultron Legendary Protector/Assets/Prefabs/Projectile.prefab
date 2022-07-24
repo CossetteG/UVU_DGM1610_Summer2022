@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 452409a34b4b2ed4c8b164354205fd97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalBounds: 7
+  verticalBounds: 25
   horizontalBounds: 25
 --- !u!54 &6158481703001277451
 Rigidbody:
