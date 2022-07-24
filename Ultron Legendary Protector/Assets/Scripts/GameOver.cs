@@ -12,12 +12,20 @@ public class GameOver : MonoBehaviour
 	public string textSay;
 	private string textControl = " ";
 
-    private int stopp;
+	public GameObject bbutton;
+	public GameObject rbutton;
+
+    public int stopp;
 
     void Start()
     {
         stopp = 0;
 		gameOverTxt.text = textControl;
+		if(stopp == 0)
+		{
+			bbutton.SetActive(false);
+			rbutton.SetActive(false);
+		}
     }
 
     void Update()
@@ -33,23 +41,27 @@ public class GameOver : MonoBehaviour
     {
         if (player1 == false)
         {
-            Debug.Log("Game Over");
-            Time.timeScale = 0;
-            stopp++;
-			TextChange();
+            GameOverScreen();
         }
         
         if (world == false)
         {
-            Debug.Log("Game Over");
-            Time.timeScale = 0;
-            stopp++;
-			TextChange();
+            GameOverScreen();
         }
 		
     }
-	public void TextChange()
+	public void GameOverScreen()
 	{
+		Time.timeScale = 0;
+		Debug.Log("Game Over");
+		stopp++;
 		gameOverTxt.text = textSay;
+		if (stopp >= 1)
+		{
+			bbutton.SetActive(true);
+			rbutton.SetActive(true);
+		}
+		
 	}
+	
 }

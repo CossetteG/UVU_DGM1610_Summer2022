@@ -10,6 +10,8 @@ public class Shooty : MonoBehaviour
     public ScriptableInt AmmoCount;
     public UnityEvent ammoDownEvent;
 
+    public GameOver gameOver;
+
     public void Update()
     {
         ammoReference = AmmoCount.number;
@@ -21,10 +23,12 @@ public class Shooty : MonoBehaviour
 
     public void Shooter()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && gameOver.stopp == 0)
+        {
             Instantiate(projectile, blaster.transform.position, projectile.transform.rotation);
-        if (Input.GetKeyDown(KeyCode.Space))
             ammoDownEvent.Invoke();
+        }
+
     }
 
 }
