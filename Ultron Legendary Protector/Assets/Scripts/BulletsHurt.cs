@@ -5,8 +5,8 @@ using UnityEngine.Events;
 
 public class BulletsHurt : MonoBehaviour
 {
-    //public ScriptableInt ScoreCount;
 	public UnityEvent BulletHitEvent;
+	public GameObject enemyDestroySound;
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,6 +14,10 @@ public class BulletsHurt : MonoBehaviour
         Destroy(gameObject);
 		
 		if (other.tag == "Enemy")
+		{
 			BulletHitEvent.Invoke();
+			Instantiate(enemyDestroySound, new Vector3(0,0,0), new Quaternion(0,0,0,0));
+		}
+		
     }
 }

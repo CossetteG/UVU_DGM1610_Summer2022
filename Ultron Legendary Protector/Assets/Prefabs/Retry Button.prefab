@@ -254,7 +254,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8516963234530025296}
-        m_MethodName: LoadNewScene
+        m_MethodName: ReloadScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -276,4 +276,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9c84de5b816e414690c2cdb5325358e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoa: 0
+  sceneToLoa: 1
+  backSound: {fileID: 1762065488403515431, guid: a8036a63d1f404c41bd6fd43a4944495,
+    type: 3}
+  retrySound: {fileID: 9134663787552976067, guid: 720f1a832c428f44ea05b3b275523eaa,
+    type: 3}

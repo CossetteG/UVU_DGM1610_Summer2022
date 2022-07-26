@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public int sceneToLoad;
+    public AudioSource quitSound;
     public void StartGame()
     {
         SceneManager.LoadScene(sceneToLoad);
@@ -16,5 +17,6 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Quit Game");
+        Instantiate(quitSound, new Vector3(0,0,0), new Quaternion(0,0,0,0));
     }
 }

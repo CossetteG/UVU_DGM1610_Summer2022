@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class SelfDestruct : MonoBehaviour
 {
-    public Collider playerCol;
-    private void OnTriggerEnter(Collider playerCol)
+    public GameObject kickMe;
+    private void Start()
     {
-        Destroy(gameObject); 
+        Destroy(kickMe, 3);
+        Debug.Log("destroyed");
     }
 }

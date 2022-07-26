@@ -15,6 +15,8 @@ public class GameOver : MonoBehaviour
 	public GameObject bbutton;
 	public GameObject rbutton;
 
+	public AudioSource GOSound;
+
     public int stopp;
 
     void Start()
@@ -62,8 +64,7 @@ public class GameOver : MonoBehaviour
 			bbutton.SetActive(true);
 			rbutton.SetActive(true);
 		}
-		Debug.Log("Press N to restart and M to go to the Main Menu. idk why but my mouse doesn't like me.");
-		
+		GOSound.Play();
 	}
 	
 }

@@ -10,8 +10,7 @@ public class ScriptableInt : ScriptableObject
     public void UpdateInt(int num)
     {
         number += num;
-        Debug.Log("Ammo Count: " + number);
+        //Debug.Log("Ammo Count: " + number);
     }
-
     
 }

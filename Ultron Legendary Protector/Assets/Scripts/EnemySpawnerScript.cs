@@ -10,11 +10,12 @@ public class EnemySpawnerScript : MonoBehaviour
     public float enemySpawnZ = 12f;
     private float spawnDelay = 5f;
     private float spawnInterval = 2f;
-    
+
 
     void Start()
     {
         InvokeRepeating("SpawnEnemy", spawnDelay, spawnInterval);
+        
     }
     
 
@@ -25,4 +26,6 @@ public class EnemySpawnerScript : MonoBehaviour
         Instantiate(enemyPrefabs[enemyIndex], SpawnPos, enemyPrefabs[enemyIndex].transform.rotation);
         Debug.Log("Spawn");
     }
+    
+    
 }

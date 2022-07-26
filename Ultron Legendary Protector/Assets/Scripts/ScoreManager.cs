@@ -21,7 +21,6 @@ public class ScoreManager : MonoBehaviour
     {
         scoretxt.text = "Score: " + ScoreCount.number;
         ammotxt.text = "Ammo: " + AmmoCount.number;
-
     }
     
 }       

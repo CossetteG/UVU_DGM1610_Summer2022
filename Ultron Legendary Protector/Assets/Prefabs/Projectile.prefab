@@ -155,6 +155,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  enemyDestroySound: {fileID: 6850921505931320607, guid: 0bfe9f915cec7d1439f66a38fccb53e2,
+    type: 3}
 --- !u!136 &6141056971916578594
 CapsuleCollider:
   m_ObjectHideFlags: 0

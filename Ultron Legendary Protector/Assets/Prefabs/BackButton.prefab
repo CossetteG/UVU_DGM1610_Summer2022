@@ -254,7 +254,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6073707319875851603}
-        m_MethodName: LoadNewScene
+        m_MethodName: ToMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -277,3 +277,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoa: 0
+  backSound: {fileID: 1762065488403515431, guid: a8036a63d1f404c41bd6fd43a4944495,
+    type: 3}
+  retrySound: {fileID: 9134663787552976067, guid: 720f1a832c428f44ea05b3b275523eaa,
+    type: 3}

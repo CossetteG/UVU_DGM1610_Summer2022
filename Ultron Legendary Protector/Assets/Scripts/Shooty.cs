@@ -9,6 +9,7 @@ public class Shooty : MonoBehaviour
     int ammoReference;
     public ScriptableInt AmmoCount;
     public UnityEvent ammoDownEvent;
+    public AudioSource pew;
 
     public GameOver gameOver;
 
@@ -26,6 +27,7 @@ public class Shooty : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && gameOver.stopp == 0)
         {
             Instantiate(projectile, blaster.transform.position, projectile.transform.rotation);
+            pew.Play();
             ammoDownEvent.Invoke();
         }
 
