@@ -1,0 +1,13 @@
+﻿# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/modules.xml
+/projectSettingsUpdater.xml
+/.idea.ScriptableObjs.iml
+# Datasource local storage ignored files
+/../../../../../../../../../../../../:\Users\cosse\Documents\GitKraken Files\UVU_DGM1610_Summer2022\Colour Matcheur\Assets\ScriptableObjs\.idea\.idea.ScriptableObjs.dir\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
