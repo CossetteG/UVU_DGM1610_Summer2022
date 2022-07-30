@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class ID : ScriptableObject
+public class ColorID : ID
 {
+    public Color theColor = Color.red;
     
 }
