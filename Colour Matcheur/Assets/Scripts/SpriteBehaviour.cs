@@ -8,9 +8,14 @@ public class SpriteBehaviour : MonoBehaviour
 {
     private SpriteRenderer rendererObj;
     public UnityEvent StartEvent;
-    public void Start()
+    public void Awake()
     {
         rendererObj = GetComponent<SpriteRenderer>();
+        
+    }
+
+    public void Start()
+    {
         StartEvent.Invoke();
     }
     public void ColorChanger(ColorID obj)

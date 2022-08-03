@@ -7,14 +7,20 @@ using UnityEngine.UI;
 public class ScoreTextUpdater : MonoBehaviour
 {
     private Text label;
+    public IntData intObj;
 
     private void Start()
     {
         label = GetComponent<Text>();
     }
 
-    public void UpdateLabel(IntData obj)
+    private void FixedUpdate()
     {
-        label.text = obj.number.ToString();
+        UpdateLabel();
+    }
+
+    public void UpdateLabel()
+    {
+        label.text = intObj.number.ToString();
     }
 }
