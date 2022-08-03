@@ -31,6 +31,5 @@ public class IntData : ScriptableObject
     public void OnEnd()
     {
         intEnd.Invoke();
-        Debug.Log("end");
     }
 }

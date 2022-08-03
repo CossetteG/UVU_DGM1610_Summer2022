@@ -8,6 +8,7 @@ public class SpriteBehaviour : MonoBehaviour
 {
     private SpriteRenderer rendererObj;
     public UnityEvent StartEvent;
+    public Color defaultColor;
     public void Awake()
     {
         rendererObj = GetComponent<SpriteRenderer>();
@@ -22,4 +23,5 @@ public class SpriteBehaviour : MonoBehaviour
     {
         rendererObj.color = obj.theColor;
     }
+    
 }

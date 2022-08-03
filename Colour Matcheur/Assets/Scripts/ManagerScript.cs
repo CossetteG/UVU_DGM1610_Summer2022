@@ -10,17 +10,21 @@ public class ManagerScript : MonoBehaviour
 
     public void Update()
     {
-        /*if (Input.GetKey(KeyCode.P))
-            {
-                gameEnd = true;
-                endEvent.Invoke();
-            }*/
-        
+        if (Input.GetKey(KeyCode.P))
+        {
+            SayGameEnd();
+        }
     }
 
     private void OnDisable()
     {
+        SayGameEnd();
+    }
+
+    public void SayGameEnd()
+    {
         gameEnd = true;
         endEvent.Invoke();
     }
+    
 }

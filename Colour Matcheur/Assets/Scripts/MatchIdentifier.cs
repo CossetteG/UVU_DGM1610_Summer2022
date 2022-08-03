@@ -7,7 +7,6 @@ public class MatchIdentifier : MonoBehaviour
 {
     public ID myidobj;
     public UnityEvent MatchEvent, NoMatchEvent, NoMatchDelayed;
-    public AudioSource audiclip;
     public IEnumerator OnTriggerEnter(Collider other)
     {
         var otherIdHolder = other.GetComponent<IDholder>();
@@ -30,7 +29,7 @@ public class MatchIdentifier : MonoBehaviour
         {
             NoMatchEvent.Invoke();
             Debug.Log("Not a Match");
-            audiclip.Play();
+            
             yield return new WaitForSeconds(0.5f);
             NoMatchDelayed.Invoke();
         }
