@@ -9,8 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dec88d2278e3e864ca0763af8f1ad087, type: 3}
-  m_Name: Red
+  m_Script: {fileID: 11500000, guid: b240558714d964a439b3a88ca7a49e94, type: 3}
+  m_Name: Score
   m_EditorClassIdentifier: 
-  colorID: 
-  theColor: {r: 1, g: 0, b: 0, a: 1}
+  number: 140
+  intEnd:
+    m_PersistentCalls:
+      m_Calls: []

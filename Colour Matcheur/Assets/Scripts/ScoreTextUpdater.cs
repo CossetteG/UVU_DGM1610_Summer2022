@@ -16,11 +16,16 @@ public class ScoreTextUpdater : MonoBehaviour
 
     private void FixedUpdate()
     {
-        UpdateLabel();
+        //UpdateLabel();
     }
 
     public void UpdateLabel()
     {
         label.text = intObj.number.ToString();
+    }
+
+    public void SetLabel(string letters)
+    {
+        label.text = letters;
     }
 }
