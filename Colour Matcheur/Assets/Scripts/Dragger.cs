@@ -7,7 +7,7 @@ public class Dragger : MonoBehaviour
     public Camera cameraObj;
     public bool draggable;
     public Vector3 position;
-    public Vector3 offset, offsetter;
+    public Vector3 offset;
     public UnityEvent startDragEvent, stopDragEvent;
     void Start()
     {
@@ -16,8 +16,8 @@ public class Dragger : MonoBehaviour
 
     public IEnumerator OnMouseDown()
     {
-        offsetter = cameraObj.ScreenToWorldPoint(Input.mousePosition);
-        //offset = transform.position - new Vector3(-offsetter.x, -offsetter.y, offsetter.z); 
+        //offset = transform.position - new Vector3(cameraObj.ScreenToWorldPoint(Input.mousePosition).x, cameraObj.ScreenToWorldPoint(Input.mousePosition).y, cameraObj.ScreenToWorldPoint(Input.mousePosition).z); 
+        offset = new Vector3(6f, 4.918728f, 0f);
         draggable = true;
         yield return new WaitForFixedUpdate();
         
@@ -25,9 +25,9 @@ public class Dragger : MonoBehaviour
         {
             yield return new WaitForFixedUpdate();
             startDragEvent.Invoke();
-            offset = transform.position - new Vector3(offsetter.x, offsetter.y, offsetter.z); 
             position = cameraObj.ScreenToViewportPoint(Input.mousePosition); 
-            transform.position = position;
+            transform.position = position * 12 - offset;
+            transform.position = new Vector3((transform.position.x * 1.74652934f), (transform.position.y * .8513153f), transform.position.z);
         }
     }
 
