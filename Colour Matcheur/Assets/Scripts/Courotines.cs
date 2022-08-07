@@ -40,7 +40,7 @@ public class Courotines : MonoBehaviour
         {
             yield return wfs;
             repeatEvent.Invoke();
-            //Debug.Log(countDownSecs);
+            Debug.Log(repeatEvent);
             countDownSecs = countdownObj.number;
         }
 

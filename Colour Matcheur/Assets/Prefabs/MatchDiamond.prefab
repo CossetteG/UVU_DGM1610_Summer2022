@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 6634366551840689104}
   - component: {fileID: 6634366551840689110}
   - component: {fileID: -2012023493786018632}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MatchDiamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}

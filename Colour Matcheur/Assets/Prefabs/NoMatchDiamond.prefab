@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2343664661202409895}
   - component: {fileID: 2343664661202409946}
   - component: {fileID: 8709003483454194093}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: NoMatchDiamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
