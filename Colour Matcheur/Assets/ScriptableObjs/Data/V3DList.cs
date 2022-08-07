@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class ColorID : ID
+public class V3DList : ScriptableObject
 {
-    public Color theColor = Color.red;
-    
-    
-    
+    public List<Vector3Data> value;
 }

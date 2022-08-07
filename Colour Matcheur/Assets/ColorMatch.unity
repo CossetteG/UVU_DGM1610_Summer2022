@@ -1113,6 +1113,7 @@ GameObject:
   - component: {fileID: 1069915951}
   - component: {fileID: 1069915950}
   - component: {fileID: 1069915952}
+  - component: {fileID: 1069915953}
   m_Layer: 0
   m_Name: GameOverManager
   m_TagString: Untagged
@@ -1182,6 +1183,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 557468472}
         m_MethodName: UpdateLabel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1069915953}
+        m_MethodName: StopTime
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1301,6 +1313,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1069915953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069915949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04a434831ac1a594891250368d1f7b62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1288094048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1660,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StartEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1340298852}
+        m_MethodName: ColorChanger
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 8fcd697f1d348914fa494e6f3d3268c6,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   defaultColor: {r: 1, g: 1, b: 1, a: 0}
 --- !u!114 &1340298853
 MonoBehaviour:
@@ -1946,13 +1982,12 @@ MonoBehaviour:
   playRepeatingEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 5326d7bc4c737f8419dc9d192b9d19e0, type: 2}
-        m_MethodName: InstantiateObject
-        m_Mode: 2
+      - m_Target: {fileID: 11400000, guid: 1724a9d152efc0144a0dfd7b23a2846b, type: 2}
+        m_MethodName: InstantiateRandomPosition
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 6634366551840689132, guid: 7d49c7a615b078842b55982cb694412b,
-            type: 3}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1961,6 +1996,7 @@ MonoBehaviour:
   countdownObj: {fileID: 11400000, guid: 9edc55bbf84ed5a4d8c2265c280d39f1, type: 2}
   countDownSecs: 3
   seconds: 1
+  canRun: 1
 --- !u!1 &1414450099
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,6 +2214,17 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 11400000, guid: 33ac6e00a4eef8e4b9404ccbbc2278d8,
             type: 2}
           m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1069915953}
+        m_MethodName: GoTime
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2594,11 +2641,10 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 886573686}
         m_MethodName: UpdateLabel
-        m_Mode: 2
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 2b3408eaf05c749409398215905ddada,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

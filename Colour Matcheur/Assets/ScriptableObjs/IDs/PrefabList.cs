@@ -3,10 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class ColorID : ID
+public class PrefabList : ScriptableObject
 {
-    public Color theColor = Color.red;
-    
-    
-    
+    public List<GameObject> value;
 }

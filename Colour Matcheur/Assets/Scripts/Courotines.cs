@@ -8,12 +8,15 @@ public class Courotines : MonoBehaviour
     public UnityEvent onStart;
     public UnityEvent onEndEvent;
     public UnityEvent realStart, playRepeatingEvent;
+
     public IntData countdownObj;
     public int countDownSecs;
     public float seconds = 1f;
+
     public WaitForSeconds wfs;
     public WaitForFixedUpdate wffu;
-    private bool canRun;
+
+    public bool canRun;
 
     public IEnumerator Start()
     {
@@ -30,22 +33,20 @@ public class Courotines : MonoBehaviour
     
     IEnumerator DownCounter()
     {
-        
-        
         onStart.Invoke();
-        Debug.Log("Start");
+        //Debug.Log("Start");
 
         while (countDownSecs >= 2)
         {
             yield return wfs;
             repeatEvent.Invoke();
-            Debug.Log(countDownSecs);
+            //Debug.Log(countDownSecs);
             countDownSecs = countdownObj.number;
         }
 
         yield return wfs;
         onEndEvent.Invoke();
-        Debug.Log("End");
+        //Debug.Log("End");
     }
 
     public void RepeatUntilFalseStart()
@@ -60,7 +61,7 @@ public class Courotines : MonoBehaviour
         {
             yield return wfs;
             playRepeatingEvent.Invoke();
-            Debug.Log("Repeat Until False Running");
+            //Debug.Log("Repeat Until False Running");
         }
     }
 }

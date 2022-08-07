@@ -3,7 +3,12 @@ guid: cb732b91595c1c84dad3d56ed024ac1a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - prefab: {fileID: 6634366551840689132, guid: 7d49c7a615b078842b55982cb694412b,
+      type: 3}
+  - v3Obj: {fileID: 11400000, guid: c6b0765d8e47eb04094d016e4c44fa15, type: 2}
+  - vectorList: {fileID: 11400000, guid: 774209f24553e094498551bf60c6ca6e, type: 2}
+  - prefabList: {fileID: 11400000, guid: 742767846e4cdd7429602d542619a066, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
