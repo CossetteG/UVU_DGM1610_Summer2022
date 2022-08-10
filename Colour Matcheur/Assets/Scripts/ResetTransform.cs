@@ -10,8 +10,8 @@ public class ResetTransform : MonoBehaviour
         transform.position = Vector3.zero;
     }
 
-    public void TransformHide()
+    public void TransformHide(GameObject obj)
     {
-        transform.position = backPosition;
+        obj.transform.position = backPosition;
     }
 }
