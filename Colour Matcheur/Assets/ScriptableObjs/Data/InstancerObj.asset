@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb732b91595c1c84dad3d56ed024ac1a, type: 3}
   m_Name: InstancerObj
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6634366551840689132, guid: 7d49c7a615b078842b55982cb694412b, type: 3}
-  v3Obj: {fileID: 11400000, guid: c6b0765d8e47eb04094d016e4c44fa15, type: 2}
+  prefab: {fileID: 0}
+  v3Obj: {fileID: 0}
   vectorList: {fileID: 11400000, guid: 774209f24553e094498551bf60c6ca6e, type: 2}
-  prefabList: {fileID: 11400000, guid: de13403381b25f549943feb3308764c0, type: 2}
+  vectorList2: {fileID: 11400000, guid: fd77db49351346c4fb32ae7eec622d44, type: 2}
+  prefabList: {fileID: 11400000, guid: e474defb48368b54cbd76ec2ac3fc14e, type: 2}

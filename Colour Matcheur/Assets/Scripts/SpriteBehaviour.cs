@@ -7,12 +7,15 @@ using UnityEngine.Events;
 public class SpriteBehaviour : MonoBehaviour
 {
     private SpriteRenderer rendererObj;
+    public IDholder idObj;
+    public MatchIdentifier matchIdObj;
     public UnityEvent StartEvent;
     public Color defaultColor;
     public void Awake()
     {
         rendererObj = GetComponent<SpriteRenderer>();
-        
+        idObj = GetComponent<IDholder>();
+        matchIdObj = GetComponent<MatchIdentifier>();
     }
 
     public void Start()
@@ -22,6 +25,13 @@ public class SpriteBehaviour : MonoBehaviour
     public void ColorChanger(ColorID obj)
     {
         rendererObj.color = obj.theColor;
+    }
+
+    public void ColorChangerFromList(ColorIdList obj)
+    {
+        rendererObj.color = obj.randomColor.theColor;
+        idObj.idobj = obj.randomColor;
+        matchIdObj.myidobj = obj.randomColor;
     }
     
 }

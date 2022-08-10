@@ -9,9 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 78bea83b45a17ea4eb0b0e8f4a2ea260, type: 3}
-  m_Name: PrefabLister1
+  m_Script: {fileID: 11500000, guid: 5156e115e0f33324aaa580e73ce58876, type: 3}
+  m_Name: Position4
   m_EditorClassIdentifier: 
-  value:
-  - {fileID: 6634366551840689132, guid: 7d49c7a615b078842b55982cb694412b, type: 3}
-  - {fileID: 2343664661202409888, guid: feaf55f791f1d4c4584e2acb0daf9323, type: 3}
+  number: {x: 3, y: 5, z: 0}

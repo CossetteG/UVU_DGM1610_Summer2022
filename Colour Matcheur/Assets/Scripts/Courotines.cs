@@ -11,16 +11,17 @@ public class Courotines : MonoBehaviour
 
     public IntData countdownObj;
     public int countDownSecs;
-    public float seconds = 1f;
-
-    public WaitForSeconds wfs;
+    public float seconds = 2f;
+    public float second = 1f;
+    public WaitForSeconds wfs, wfss;
     public WaitForFixedUpdate wffu;
 
     public bool canRun;
 
     public IEnumerator Start()
     {
-        wfs = new WaitForSeconds(seconds);
+        wfss = new WaitForSeconds(seconds);
+        wfs = new WaitForSeconds(second);
         wffu = new WaitForFixedUpdate();
         realStart.Invoke();
         yield break;
@@ -59,7 +60,7 @@ public class Courotines : MonoBehaviour
     {
         while (canRun == true)
         {
-            yield return wfs;
+            yield return wfss;
             playRepeatingEvent.Invoke();
             //Debug.Log("Repeat Until False Running");
         }

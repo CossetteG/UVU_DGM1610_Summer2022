@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 840229c8d4c223244848ef835ea94fa4, type: 3}
-  m_Name: VectorList
+  m_Name: TargetVectorList
   m_EditorClassIdentifier: 
   value:
   - {fileID: 11400000, guid: c6b0765d8e47eb04094d016e4c44fa15, type: 2}
   - {fileID: 11400000, guid: 4779737209990f140bdd91fc52ea3753, type: 2}
   - {fileID: 11400000, guid: a3274768f80c00445ab43c649be518a1, type: 2}
+  - {fileID: 11400000, guid: b8e4f1ae95a21a9409dc484adc65a5bc, type: 2}
