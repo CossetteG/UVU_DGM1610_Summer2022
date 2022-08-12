@@ -65,4 +65,9 @@ public class Courotines : MonoBehaviour
             //Debug.Log("Repeat Until False Running");
         }
     }
+
+    public void StopRepeating()
+    {
+        canRun = false;
+    }    
 }

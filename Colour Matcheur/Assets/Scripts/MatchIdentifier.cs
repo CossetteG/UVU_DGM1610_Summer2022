@@ -22,13 +22,13 @@ public class MatchIdentifier : MonoBehaviour
         if (myidobj == otherID)
         {
             MatchEvent.Invoke();
-            Debug.Log("Match");
+            //Debug.Log("Match");
             yield break;
         }
         else if (myidobj != otherID)
         {
             NoMatchEvent.Invoke();
-            Debug.Log("Not a Match");
+            //Debug.Log("Not a Match");
             
             yield return new WaitForSeconds(0.5f);
             NoMatchDelayed.Invoke();
