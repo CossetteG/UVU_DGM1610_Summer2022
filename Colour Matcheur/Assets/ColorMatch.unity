@@ -593,6 +593,7 @@ GameObject:
   - component: {fileID: 557468474}
   - component: {fileID: 557468473}
   - component: {fileID: 557468472}
+  - component: {fileID: 557468475}
   m_Layer: 5
   m_Name: HighScoreText(1)
   m_TagString: Untagged
@@ -673,6 +674,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 557468470}
   m_CullTransparentMesh: 0
+--- !u!114 &557468475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557468470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992a4a9b87734134392f219a0c69dc92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 908ebd87cbd19254492005bc7ce4ae83, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 557468472}
+        m_MethodName: UpdateLabel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &617781153
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,6 +938,7 @@ GameObject:
   - component: {fileID: 886573688}
   - component: {fileID: 886573687}
   - component: {fileID: 886573686}
+  - component: {fileID: 886573689}
   m_Layer: 5
   m_Name: ScoreText (1)
   m_TagString: Untagged
@@ -990,6 +1019,33 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886573684}
   m_CullTransparentMesh: 0
+--- !u!114 &886573689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886573684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992a4a9b87734134392f219a0c69dc92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: 908ebd87cbd19254492005bc7ce4ae83, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 886573686}
+        m_MethodName: UpdateLabel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &919212272
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1170,7 @@ GameObject:
   - component: {fileID: 1069915950}
   - component: {fileID: 1069915952}
   - component: {fileID: 1069915953}
+  - component: {fileID: 1069915954}
   m_Layer: 0
   m_Name: GameOverManager
   m_TagString: Untagged
@@ -1158,17 +1215,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1340298857}
-        m_MethodName: TransformHide
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1069915952}
         m_MethodName: Play
@@ -1325,6 +1371,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a434831ac1a594891250368d1f7b62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1069915954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1069915949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 992a4a9b87734134392f219a0c69dc92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: b573c0f035445ee4b8d60812ac0eef7b, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1069915950}
+        m_MethodName: SayGameEnd
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1288094048
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,6 +1731,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 667dc029e430f364f825d3dd58f62195, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  idObj: {fileID: 0}
+  matchIdObj: {fileID: 0}
   StartEvent:
     m_PersistentCalls:
       m_Calls:
@@ -1674,6 +1749,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   defaultColor: {r: 1, g: 1, b: 1, a: 0}
+  idPresent: 1
 --- !u!114 &1340298853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1995,6 +2071,7 @@ MonoBehaviour:
   countdownObj: {fileID: 11400000, guid: 9edc55bbf84ed5a4d8c2265c280d39f1, type: 2}
   countDownSecs: 3
   seconds: 2
+  second: 1
   canRun: 1
 --- !u!1 &1414450099
 GameObject:
@@ -2162,28 +2239,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1340298857}
-        m_MethodName: TransformZero
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1069915952}
-        m_MethodName: Pause
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 11400000, guid: 2b3408eaf05c749409398215905ddada, type: 2}
         m_MethodName: SetValue
         m_Mode: 3
@@ -2206,20 +2261,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1340298852}
-        m_MethodName: ColorChanger
-        m_Mode: 2
+      - m_Target: {fileID: 1069915953}
+        m_MethodName: GoTime
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 33ac6e00a4eef8e4b9404ccbbc2278d8,
-            type: 2}
-          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1069915953}
-        m_MethodName: GoTime
+      - m_Target: {fileID: 1069915952}
+        m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

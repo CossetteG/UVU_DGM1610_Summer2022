@@ -11,6 +11,7 @@ public class SpriteBehaviour : MonoBehaviour
     public MatchIdentifier matchIdObj;
     public UnityEvent StartEvent;
     public Color defaultColor;
+    public bool idPresent = true;
     public void Awake()
     {
         rendererObj = GetComponent<SpriteRenderer>();
@@ -31,7 +32,8 @@ public class SpriteBehaviour : MonoBehaviour
     {
         rendererObj.color = obj.randomColor.theColor;
         idObj.idobj = obj.randomColor;
-        matchIdObj.myidobj = obj.randomColor;
+        if (idPresent == true)
+            matchIdObj.myidobj = obj.randomColor;
     }
     
 }

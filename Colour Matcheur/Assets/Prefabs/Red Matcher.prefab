@@ -247,6 +247,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: b573c0f035445ee4b8d60812ac0eef7b, type: 2}
+        m_MethodName: RaiseAction
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   NoMatchDelayed:
     m_PersistentCalls:
       m_Calls: []
@@ -389,3 +400,4 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   defaultColor: {r: 0, g: 0, b: 0, a: 0}
+  idPresent: 1
